@@ -1,0 +1,1 @@
+select titlos,'^',met.mitroo,'^',epvn,'^',onoma,'^',patr,'^',email from (met inner join metstuprog on met.mitroo = metstuprog.mitroo) inner join metprogram on metstuprog.progcode = metprogram.progcode where metstuprog.progcode !=1 and ak = 2017 order by titlos,epvn,onoma,patr; 

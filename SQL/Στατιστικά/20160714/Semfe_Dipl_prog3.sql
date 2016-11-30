@@ -1,0 +1,1 @@
+select met.mitroo||'^'||met.epvn||'^'||met.onoma||'^'||met.email||'^'||metstuprog.dateanag from met inner join metstuprog on met.mitroo = metstuprog.mitroo where metstuprog.progcode = 3 and dateanag is not null order by dateanag desc,epvn,onoma;

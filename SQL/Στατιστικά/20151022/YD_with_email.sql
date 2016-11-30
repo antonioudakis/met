@@ -1,0 +1,3 @@
+select met.mitroo,'^',met.epvn,'^',met.onoma,'^',met.email,'^',metstuprog.ak from met inner join  metstuprog on met.mitroo = metstuprog.mitroo where metstuprog.ak<=:1 and metstuprog.progcode = 1 and dateanag is null  
+		and metstuprog.mitroo not in (select mitroo from metdiakop where dateeos is null and dateapo is not null and metdiakop.progcode =1) 
+		and ((met.erasmus is null) or (met.erasmus=2)) order by ak desc,epvn,onoma;

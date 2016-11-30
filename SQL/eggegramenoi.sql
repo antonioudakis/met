@@ -1,0 +1,1 @@
+select egrafi.k_f||'%'||epvn||'%'||onoma||'%'||patr||'%'||egrafi.ej||'%'||tel1||'%'||tel2||'%'||perioxi||'%'||odos from st_f,egrafi where egrafi.k_f=st_f.k_f and egrafi.xu='1' and egrafi.ak=2003 order by egrafi.ej,epvn,onoma;

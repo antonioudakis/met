@@ -1,0 +1,21 @@
+Politikoi;
+select max(am_dep)+1 from dep where am_dep between 10000 and 20000;
+Mhxanologoi;
+select max(am_dep)+1 from dep where am_dep between 20000 and 30000;
+Hlektologoi;
+select max(am_dep)+1 from dep where am_dep between 30000 and 40000;
+Arxitektones;
+select max(am_dep)+1 from dep where am_dep between 40000 and 50000;
+Xhmikoi;
+select max(am_dep)+1 from dep where am_dep between 50000 and 60000;
+Topografoi;
+select max(am_dep)+1 from dep where am_dep between 60000 and 70000;
+Metaleiologoi;
+select max(am_dep)+1 from dep where am_dep between 70000 and 80000;
+Naupigoi;
+select max(am_dep)+1 from dep where am_dep between 80000 and 90000;
+SEMFE;
+select max(am_dep)+1 from dep where am_dep between 90000 and 100000;
+Ektos EMP;
+select max(am_dep)+1 from dep where am_dep between 1000 and 2000;
+

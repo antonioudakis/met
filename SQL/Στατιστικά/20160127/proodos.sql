@@ -1,0 +1,1 @@
+select tmp.mitroo,'^',epvn,'^',onoma,'^',patr,'^',dateprod,'^',@if(@int(xarakthrism)-2,'ΘΕΤΙΚΗ','ΑΡΝΗΤΙΚΗ'),'^',sxolia from tmp  inner join metprood on tmp.mitroo = metprood.mitroo and metprood.progcode = '1' order by epvn,onoma,patr,dateprod desc;

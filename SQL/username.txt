@@ -1,0 +1,20 @@
+
+1. Alter table trexon add username varchar(8);
+2. Delete from trexon;
+3. Drop index trexon_idx;
+4. create index trexon_idx on trexon (k_tm, username) pctfree 10;
+
+DHMIOYRGIA NEVN XRHSTVN;
+5. INSERT INTO USERTAB VALUES ('омола вягстг','йыдийос',null,99,null,'пеяицяажг',2);
+DHLADH:
+INSERT INTO USERTAB VALUES ('TOMAS','tomas',null,99,null,'хылас пападглгтяиоу',2);
+
+Ayta gia na mporei kaue xrhsths na mpainei sto systhma me tiw dikes toy trexouses times.
+Aplvs thn prvth fora, meta thn allagh kai afou exeis balei thn nea ekdosi kai exeis orisei neoys xrhstes, poy ua syndeuei kaue enas xrhsths ua prepei na eisagei tis parakatv times
+trexon ak,xu,period kai hmeromhnia diplvmatikhs kai na pathsei enimerosi.
+
+
+6.alter table aitisi add aa integer;
+select * from trexon;
+
+drop index metegr_idx;
