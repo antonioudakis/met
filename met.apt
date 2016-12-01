@@ -18,8 +18,9 @@ Application Description: SQLWindows version 5.0 starter application
 0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
 0020: 00000000004A0100 002C000000020000 0003000000FFFFFF FFFFFFFFFFF8FFFF
 0040: FFE1FFFFFFFCFFFF FF02000000280300 00B8010000010000 0000000000010000
-0060: 000F4170706C6963 6174696F6E497465 6D04000000075769 6E646F7773096672
-0080: 6D45677261666909 46756E6374696F6E 73065265706F7274
+0060: 000F4170706C6963 6174696F6E497465 6D04000000075769 6E646F77730B6D64
+0080: 6966726D53746172 740946756E637469 6F6E730F44696461 6B746F7257697468
+00A0: 4D4445
 .enddata
 .data DT_MAKERUNDLG
 0000: 0900001000000000 1D433A5C4E545541 5249535C494D4147 45535C49434F5C6D
@@ -5722,7 +5723,6 @@ Application Description: SQLWindows version 5.0 starter application
 					Call SqlImmediate( 'Select count(*) into :nProsontaNum from  metptyx where mitroo = :mitroo and ptyxview = 3' )
 					Call SqlClearImmediate(  )
 					If nProsontaNum > 0
-						Set sODOS = sODOS||'лийяотеяг тым тяиым (3) пкгяым глеяокоциайым етым апо тгм глеяолгмиа ояислоу тгс тяилекоус сулбоукеутийгс епитяопгс'
 						Return TRUE
 					Else
 						Call SqlImmediate( 'Select count(*) into :nProsontaNum from metstuprog where mitroo =:mitroo  and progcode   = 1 and mitroo in (select mitroo from metstuprog where mitroo =:frmEgrafi.dfStf and progcode !=1 and dateanag is not null)' )
