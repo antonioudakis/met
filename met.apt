@@ -3,23 +3,23 @@ Application Description: SQLWindows version 5.0 starter application
 0000: FB00
 .enddata
 .data CLASSPROPS
-0000: 5761746368566172 7300AF007350524F 47434F4445006466 53747564436F6465
-0020: 456772006E436F64 65546D696D610074 626C456772616669 2E636F6C416B4567
-0040: 720074626C456772 6166692E636F6C50 6572696F64436F64 0074626C45677261
-0060: 66692E636F6C5365 716E6F4D65746567 7200734D73675072 696E740064665374
-0080: 7564436F64654567 72006E5265636F72 6473457869737400 734567724D697472
-00A0: 6F6F0074626C5765 624567722E636F6C 4553746174757352 657000004442475F
-00C0: 504C41594241434B 5F47554944001000 9E06FD4F6F42CA41 86A17A866A05D1CA
-00E0: 0057617463685661 72734C656E000400 AF00000000000000 000000
+0000: 5761746368566172 734C656E000400AF 000000004442475F 504C41594241434B
+0020: 5F47554944001000 BD150D4F6EC2F040 B880E78A0656EE48 0057617463685661
+0040: 727300AF00735052 4F47434F44450064 6653747564436F64 65456772006E436F
+0060: 6465546D696D6100 74626C4567726166 692E636F6C416B45 67720074626C4567
+0080: 726166692E636F6C 506572696F64436F 640074626C456772 6166692E636F6C53
+00A0: 65716E6F4D657465 677200734D736750 72696E7400646653 747564436F646545
+00C0: 6772006E5265636F 7264734578697374 00734567724D6974 726F6F0074626C57
+00E0: 65624567722E636F 6C45537461747573 5265700000000000 000000
 .enddata
 	Outline Version - 4.0.35
 	Design-time Settings
 .data VIEWINFO
-0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
+0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400800000
 0020: 0000000000440100 002C000000020000 0003000000FFFFFF FFFFFFFFFFF8FFFF
-0040: FFE1FFFFFFFCFFFF FF02000000280300 00B8010000010000 0001000000010000
-0060: 000F4170706C6963 6174696F6E497465 6D02000000075769 6E646F777308646C
-0080: 674C6F67696E
+0040: FFE1FFFFFFFCFFFF FF02000000280300 00B8010000010000 0000000000010000
+0060: 000F4170706C6963 6174696F6E497465 6D02000000075769 6E646F7773096672
+0080: 6D456772616669
 .enddata
 .data DT_MAKERUNDLG
 0000: 0900001000000000 1D433A5C4E545541 5249535C494D4147 45535C49434F5C6D
@@ -725,26 +725,27 @@ Application Description: SQLWindows version 5.0 starter application
 			Bitmap: Testsql
 				File Name: C:\NTUARIS\IMAGES\BMP\Testsql.bmp
 		Variables
-.data RESOURCE 0 0 1 2149472102
-0000: 880300004D020000 0000000000000000 0200001E000000DB 0400001019000000
-0020: 019C00F02F000000 0073000000010000 00A3F40400192500 019C3000BC000073
-0040: D100010000600D05 0000190009019C31 0000006F73003401 000026055A001900
-0060: 01C29C320000001B 730001008D003F05 00961900019CF033 0000004673000100
-0080: 00A3580500192500 019CA803B8000000 73D1000100006871 0500190089019CA9
-00A0: 03006E0073003401 00008A055A001900 01A29CAA0300001B 730001008D00A305
-00C0: 00961900019CE8AB 0300004673000100 00A3BC0500192500 019CAC03BA000073
-00E0: D10001000068D505 00190069019C2F00 6F730034010000EE 055A00190001DA9C
-0100: 30001B730001000D 0007060000961900 019CF63100467300 010000A320060019
-0120: A500019C32BD0073 D100010000683906 00190069019C3300 6F73003401000052
-0140: 065A00190001C29C E90000001B730001 008D006B06009619 00019CF0EA000000
-0160: 467300010000A384 0600192500019CEB 00BC000073D10001 0000689D06001900
-0180: 09019CEC0000006F 730034010000B606 5A00190001C29CED 0000001B73000100
-01A0: 8D00CF0600961900 019CF62F00467300 010000A3E8060019 A500019C30BD0073
-01C0: D100010000600107 0000190069019C31 006F730034010000 1A075A00190001DA
-01E0: 9C32001B73000100 8D00330700961900 019CF43300004673 00010000A34C0700
-0200: 192500019CF100BC 000073D100010000 6865070019000901 9CF20000006F7300
-0220: 340100007E075A00 190001C29CF30000 001B730001008D00 970700961900019C
-0240: F0F4000000467300 010000A3B0070019 2500019CF500BC00 0073D100010000
+.data RESOURCE 0 0 1 1569392238
+0000: 880300006A020000 0000000000000000 0200001E000000FC 0400001019000000
+0020: 018008F02F000000 0073000000010000 0083150500001905 000180083000BC00
+0040: 0073D10001000068 2E05001900010180 08310000006F7300 3401000047055A00
+0060: 190001C080083200 00001B730001008D 0060050016190001 8008F03300000046
+0080: 7300010000A37905 00190500018008A8 03B800000073D100 0100006892050019
+00A0: 0081018008A90300 6E00730034010000 AB055A00190001A0 8008AA0300001B73
+00C0: 0001008D00C40500 161900018008E8AB 0300004673000100 00A3DD0500190500
+00E0: 018008AC03BA0000 73D10001000068F6 0500190061018008 2F006F7300340100
+0100: 000F065800001900 01D8800830001B73 0001008D00280600 161900018008F631
+0120: 00467300010000A3 4106001985000180 0832BD0073D10001 0000685A06001900
+0140: 6101800833006F73 003401000073065A 00190001C08008E9 0000001373000001
+0160: 008D008C06001619 00018008F0EA0000 00467300010000A3 A506001905000180
+0180: 08EB00BC000073D1 0001000068BE0600 190001018008EC00 00006F7300340100
+01A0: 00D7065A00190001 C08008ED0000001B 730001008D00F006 00161900018008F6
+01C0: 2F00467300010000 8309070000198500 01800830BD0073D1 0001000068220700
+01E0: 1900610180083100 6F7300340100003B 075A00190001D880 0832001B73000100
+0200: 8D00540700161900 018008F633004673 00010000A36D0700 190500018008F100
+0220: BC000073D1000100 0068860700190001 018008F20000006F 7300340100009F07
+0240: 5A00190001C08008 F30000001B730001 008D00B807001619 00018008F0F40000
+0260: 00467300010000A3 D107001905000180 08F500BC000073D1 00010000
 .enddata
 			Number: nAkTrexon
 			String: sXuTrexon
@@ -1128,75 +1129,76 @@ Application Description: SQLWindows version 5.0 starter application
 					Menu Actions
 						Call SalMDIArrangeIcons( hWndMDI )
 		Class Definitions
-.data RESOURCE 0 0 1 3786095397
-0000: 690D00004F080000 0000000000000000 0200001900FFFF01 00160000436C6173
+.data RESOURCE 0 0 1 3346259725
+0000: 690D000074080000 0000000000000000 0200001900FFFF01 00160000436C6173
 0020: 73566172004F7574 6C696E6552006567 496E666FA8003C00 000763006C734461
-0040: 7461AA02C0000015 0000004304000000 02C09C0005000000 00BC0C7300000001
-0060: 006C00000400D604 0002B006000000BC 6700010083080000 0019040000019C00
-0080: 0700EC0000BCD100 0100006021000000 04006D0208007BBC 0036010025005800
-00A0: 00040002C3090000 009EBC00010D0029 000000D6040002B0 0A000000BC670001
-00C0: 00832D0000000405 00039C000B00EC00 00BCD90001006031 00000004000D020C
-00E0: 0000007BBC003601 0035005800000400 02C30D0000009EBC 00010D0039000000
-0100: D6040002B00E0000 00BC67000100833D 000000043500020F 00EC0000BCD90001
-0120: 0060410000001900 09019C100000007B BC00340100005A00 580000040002C311
-0140: 0000009EBC00010D 005E000000861900 01019CF012000000 033B0000000100BD
-0160: 003B810062000000 04210001029C1300 FC0000463B000100 006F3B0060660000
-0180: 0019000C01011400 0000BF3BD1000100 001B3B006A001800 0019000101DB1500
-01A0: 6F3B00F401000006 3B006E0000009619 00019CB2160000BC 4700010000838700
-01C0: 0000043100010217 00FC0000463B0001 00006F3B00608B00 000004000C010218
-01E0: 000000BF3BD10001 00001B3B008F0058 0000190001DA9C19 001EBC0001000D00
-0200: 0180040011000100 001063026C546F6F 6C5469007057696E 646F7722B0000000
-0220: 0100B70400B60305 0031C80C7300011B 0001801022000002 00000B0047656E53
-0240: 716C466900656C64 7C000000047B0004 4B00029C081B00DA 0C73A3000100000D
-0260: 04003E0000420007 9C000901E13410DA 0C640001000008B3 000400A6020B0000
-0280: 3DDA0001DB000CAC 000400026D0C00DA CF00018600018019 000000030000000B
-02A0: 4344C06972747943 6C892200000100DE 0019D200019C05C6 00EC0C7368000100
-02C0: 0001C8800C000004 90000F4765576987 73636C61C95E0000 03DE00041A000720
-02E0: 00019400BC007300 640001000004B300 04004607640001BC 37730001D9000008
-0300: AC00040007C17902 0100BC4D73000100 8600018008000C00 05000C436400664C
-0320: 696E6B506C530271 400000000200BD00 04A500029C080D00 5E0D7300D1000100
-0340: 0066040004002D02 0900007B5E003601 000180642D000006 00F80A4364045371
-0360: C0000000067B0004 6B00020A1A000070 0D73A300010000CD 0400049A00020B00
-0380: F600706C00010008 B3000400A6020C00 003D700001DB000C 8C0004000102ED0D
-03A0: 003F8001F8000000 27100000194B0001 9C0EDB0070A30001 0000CD29003E1A00
-03C0: 070F0001E534700D 6400010000018C80 2D000700F0000D43 64E154626C53B300
-03E0: 0600B70400A6020D 000031820D730001 DA000004AC000400 026D0E0082CF0001
-0400: 36000800046B0002 0FD9000082B30001 00CD0C0004D00001 029C10FE00938001
-0420: 00007F10B3001900 B4019C110039820D 0001DA0000292C00 3E00079C55120134
-0440: 824E0D0001008600 01803D000C000800 0A636CC073436F6C 4461583001000000
-0460: 6F04006D02050063 B80D7300B4010000 045900040002DB06 009EB800016D0008
-0480: 00D6040002B40700 00B8670001009B0C 0004B5000208ED00 B8D9000100661000
-04A0: 04006D0209007BB8 00B6010014590019 0001DA9C0A001EB8 0001006D002D00D6
-04C0: 040002B60C00B867 0001009B310004B5 00020DED00B8D900 0100663500040069
-04E0: 039C0E007BB800B6 0100395900040002 DB0F009EB800010D 0001801D00180000
-0500: 09000743B874626C 40D1000200005B3E 00078A9C0B010034 98D00D7300016C00
-0520: 000400961900019C 360D00D00D470001 0000630180080006 0A000A43636F586C
-0540: 4C695040B3000200 B70400A4029C0A00 0021180E73000001 DA000004AC000400
-0560: 02650B000018CF00 01C6000180048C00 0B000A4383436D62 5371442200000100
-0580: 006F3E00AD070901 62342A0E73003201 000001806604000C 00F80F4363075365
-05A0: 74506C4622000100 006F3E00FD076234 3C0E730032010000 01806604000D00F8
-05C0: 0D4363A7546222D1 000100005B3E0007 AB080134984E0E73 00018C0000018004
-05E0: 19000E001043FE63 CD535462A3000100 00B73E007E073431 660E730001190000
-0600: 0180252200000F00 000A756F4C54937C 000004BD0004B500 020B8D007E0E73D1
-0620: 0001000066040004 006D020C007B7E00 B60100085800003E 0007A30D0001349C
-0640: 7E0E00016C00000C 00961900019CB60F 007E470001000063 01800400C4100000
-0660: 0F431F4E616D6865 54622200F4010000 D6040002340A0000 900E667300010063
-0680: 0180080086110010 436F0F42794E61DF 40E8000200002D04 00029C65090000A2
-06A0: 8C0E730001003600 0400046B00020ADB 00A2B30001003101 80040012F100000F
-06C0: 0F436F6465365422 00017A000004EB00 021B00B40E73B300 01003101801D0013
-06E0: 0300064363625303 480000000200BD00 04A10001029C08FD 002780010000FF66
-0700: 0400190069019C09 0063FC0E73003401 0000018066080014 00E00743636D6266
-0720: 400002006F3E0029 079C0A010042340E 0F730000B2010000 045900040002DA9C
-0740: 0C009C0E0F00010D 0001803600180000 15000C43BE634627 660000037A000004
-0760: 630001020AF90000 4F800100FE00CD04 0019D200019C0BC6 00200F7368000100
-0780: 001DB200001900A4 019C0C00003D2000 011A000001801D33 0016000FFF0F5461
-07A0: 6248A20000020000 37040001B6020A00 FFE480010000DF04 2C001900019C6D0B
-07C0: 00328C0F73000100 C60001801D0C0017 0008436D006C4D69 6D65724000D90002
-07E0: 005B040002D29C06 000018FE0F730001 006D000400961900 019CB4070000FE47
-0800: 0001000063018025 00841800000C636C 04537148616E646C C8657C000004DE00
-0820: 04DA000206860028 1073006800010000 04B3000400B60207 003D2800019B0008
-0840: 00AC000400026D08 0028CF000126000C 0000194B00019C09 DB0028A300010000
-0860: 01
+0040: 7461AA02C0000015 0000004304000000 02C0800805000000 00BC0C7300000001
+0060: 006C00000400D604 0002B006000000BC 6700010083080000 0019040000018008
+0080: 0700EC0000BCD100 0100006021000000 04004D020800007B BC00360100250058
+00A0: 0000040002C30900 00009EBC00010D00 29000000D6040002 B00A000000BC6700
+00C0: 0100832D00000004 05000380080B00EC 0000BCD900010060 3100000004000D02
+00E0: 0C0000007BBC0036 0100350058000004 0002C30D0000009E BC00010D00390000
+0100: 00D6040002B00E00 0000BC6700010083 3D00000004350002 0F00EC0000BCD900
+0120: 0100604100000019 0001018008100000 007BBC0034010000 5A00580000040002
+0140: C3110000009EBC00 010D005E00000006 190001018008F012 000000033B000000
+0160: 0100BD003B810062 0000000421000102 801300FC0000463B 000100006F3B0060
+0180: 6600000019000401 010814000000BF3B D1000100001B3B00 6A00180000190001
+01A0: 01D1081500006F3B 00F4010000063B00 6E00000016190001 8008B016000000BC
+01C0: 4700010000838700 0000043100010217 00FC0000463B0001 00006F3B00608B00
+01E0: 000004000C010218 000000BF3BD10001 00001B3B008F0058 0000190001D08008
+0200: 1900001EBC000100 0D00018004001100 0100001063026C54 6F6F6C5469007057
+0220: 696E646F7722B000 00000100B70400B6 03050031C80C7300 011B000180100200
+0240: 00020000000B0047 656E53716C466900 656C647C00000004 7B00044B00028008
+0260: 1B00DA0C73A30001 00000D04003E0000 42000780080901E1 3410DA0C64000100
+0280: 0008B3000400B602 0B003DDA00019B00 0C00AC000400026D 0C00DACF00018600
+02A0: 0180190000000300 00000B4344C06972 7479436C89220000 0100DE0019C20001
+02C0: 800805C600EC0C73 680001000001C880 0C00000490000F47 6557698773636C61
+02E0: C95E000003DE0004 1A00072000019400 BC00730064000100 0004B30004004607
+0300: 640001BC37730001 D9000008AC000400 07C179020100BC4D 7300010086000180
+0320: 080008000500000C 436400664C696E6B 506C530271400000 000200BD00048500
+0340: 028008080D005E0D 7300D10001000066 040004002D020900 007B5E0036010001
+0360: 80042D0000060000 00F80A4364045371 C0000000067B0004 6B00020A1B00700D
+0380: 73A300010000CD04 0004DA00020BF600 706C00010008B300 0400B6020C003D70
+03A0: 00019B000C008C00 04000102ED0D003F 8001F80000002710 0000190B00018008
+03C0: 0EDB0070A3000100 00CD29003E4A0007 080F01E534700D64 00010000018C802D
+03E0: 000700F0000D4364 E154626C53930006 0000B70400B6020D 0031820D730001DA
+0400: 000004AC00040002 6D0E0082CF000136 000800046B00020F D9000082B3000100
+0420: CD0C0004D0000102 8010FE0093800100 007F10B3001900B0 018008110039820D
+0440: 0001DA0000292C00 3E00078054081201 34824E0D00010086 0001803D000C0008
+0460: 000A636CC073436F 6C44615830010000 006F04006D020500 63B80D7300B40100
+0480: 00045900040002CB 0600009EB800016D 000800D6040002B6 0700B8670001009B
+04A0: 0C0004B5000208ED 00B8D90001006610 0004006D0209007B B800360100140059
+04C0: 00190001D880080A 001EB80001006D00 2D00D6040002B60C 00B8670001009B31
+04E0: 0004B500020DED00 B8D9000100663500 0400610380080E00 7BB800B601003959
+0500: 00040002DB0F009E B800010D0001801D 0010000009000007 43B874626C40C100
+0520: 020000005B3E0007 8880080B01003498 D00D7300016C0000 0400161900018008
+0540: 360D00D00D470001 0000430180080000 060A000A43636F58 6C4C695040B30002
+0560: 00B70400B402800A 0021180E73000001 DA000004AC000400 02650B000018CF00
+0580: 01C600018004C800 0B00000A83436D62 5371442200000100 006F3E00AD070901
+05A0: 62342A0E73003201 000001806604000C 00F80F4363075365 74506C4622000100
+05C0: 006F3E00FD076234 3C0E730032010000 01804604000D0000 F80D4363A7546222
+05E0: D1000100005B3E00 07AB080134984E0E 7300018C00000180 0411000E00001043
+0600: FE63CD535462A300 010000B73E007E07 3431660E73000119 0000018025220000
+0620: 0F00000A756F4C54 937C000004BD0004 B500020B8D007E0E 73D1000100006604
+0640: 0004006D020C007B 7E00B60100085800 003E0007AB0D0134 9C7E0E00016C0000
+0660: 0C00161900018008 B60F007E47000100 006301800400C410 00000F431F4E616D
+0680: 686554622200F401 0000D6040002360A 00900E6673000100 4301800800008411
+06A0: 000010436F0F4279 4E61DF40E8000200 002D040002806509 0000A28C0E730001
+06C0: 0036000400046B00 020ADB00A2B30001 00310180040012F0 0000000F0F436F64
+06E0: 6536542200017A00 0004EB00021B00B4 0E73B30001003101 801D001302000006
+0700: 4363625303480000 000200BD0004A100 01028008FD002780 010000FF66040019
+0720: 0061018008090063 FC0E730034010000 0180640800001400 E00743636D626640
+0740: 0002006F3E002907 800A010042340E0F 730000B201000004 5900040002DA800C
+0760: 009C0E0F00010D00 0180360018000015 000C43BE63462766 0000037800000004
+0780: 23000102080AF900 004F800100FE00CD 040019C200018008 0BC600200F736800
+07A0: 0100001DB2000019 00B00180080C003D 2000011A00000180 1D330016000FFF0F
+07C0: 54616248A2000002 000037040001B602 0A00FFE480010000 DF042C0019000180
+07E0: 6C080B00328C0F73 000100C60001801D 080017000008436D 006C4D696D657240
+0800: 00D90002005B0400 02CA8006000018FE 0F730001006D0004 00161900018008B6
+0820: 0700FE4700010000 6301802500841800 000C636C04537148 616E646CC8657C00
+0840: 0004DE0004DA0002 0686002810730068 0001000004B30004 00B60207003D2800
+0860: 019B000800AC0004 00026D080028CF00 0126000C0000190B 0001800809DB0028
+0880: A30001000001
 .enddata
 			! Functional Class: CSingleConnectionSql
 .winattr
@@ -6437,7 +6439,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Class Default
@@ -6483,7 +6485,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Class Default
@@ -6525,7 +6527,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -6551,7 +6553,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 3.583"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Class Default
@@ -6848,7 +6850,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: Class Default
 				Font Enhancement: None
 				Text Color: Class Default
@@ -6867,7 +6869,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: Class Default
 				Font Enhancement: None
 				Text Color: Class Default
@@ -6886,7 +6888,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: Class Default
 				Font Enhancement: None
 				Text Color: Class Default
@@ -7431,7 +7433,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 1.938"
 						Top: 0.156"
-						Width:  0.85"
+						Width:  0.95"
 						Width Editable? Yes
 						Height: 0.333"
 						Height Editable? Yes
@@ -7440,8 +7442,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
-					Font Size: 12
+					Font Name: Calibri
+					Font Size: 10
 					Font Enhancement: Bold
 					Text Color: Midnight Blue
 					Background Color: Default
@@ -7482,8 +7484,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -7512,8 +7514,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -12439,7 +12441,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.833"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -12458,7 +12460,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -12503,7 +12505,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Uppercase
 					Country: Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: Bold
 					Text Color: Dark Blue
@@ -12537,7 +12539,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -12581,7 +12583,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -12602,7 +12604,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -12646,7 +12648,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -12668,7 +12670,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -12712,7 +12714,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -12734,7 +12736,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -12778,7 +12780,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -12862,7 +12864,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Uppercase
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -12883,7 +12885,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -12923,7 +12925,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -12945,7 +12947,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -12985,7 +12987,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -13006,7 +13008,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.667"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -13026,7 +13028,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13045,7 +13047,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13089,7 +13091,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: dd/MM/yyyy
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -13110,7 +13112,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13150,7 +13152,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -13172,7 +13174,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13212,7 +13214,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Yes
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -13234,7 +13236,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13274,7 +13276,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -13295,7 +13297,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.75"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -13314,7 +13316,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13354,7 +13356,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -13376,7 +13378,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13416,7 +13418,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -13439,7 +13441,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13483,7 +13485,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -13504,7 +13506,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13548,7 +13550,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -13569,7 +13571,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13613,7 +13615,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -13634,7 +13636,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13674,7 +13676,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -13696,7 +13698,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13736,7 +13738,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -13761,7 +13763,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13805,7 +13807,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -13826,7 +13828,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13870,7 +13872,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -13891,7 +13893,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13909,7 +13911,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.75"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -13928,7 +13930,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -13968,7 +13970,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -13991,7 +13993,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -14031,7 +14033,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -14053,7 +14055,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -14093,7 +14095,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -14127,7 +14129,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -14147,7 +14149,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -14190,7 +14192,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 0.417"
 						Height Editable? Yes
 					Visible? Yes
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -14210,7 +14212,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -14250,7 +14252,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -14293,7 +14295,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -14314,7 +14316,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.333"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -14338,7 +14340,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 0.95"
 						Height Editable? Yes
 					Visible? Yes
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -16258,7 +16260,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Yes
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif Greek
+				Font Name: Calibri Light
 				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
@@ -16398,7 +16400,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Right
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -16442,7 +16444,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -16472,7 +16474,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Default
@@ -16502,8 +16504,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Unformatted
 					Country: Default
-					Font Name: Default
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Red
 					Background Color: 3D Face Color
@@ -16545,7 +16547,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -16575,8 +16577,8 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 0.573"
 						Height Editable? Yes
 					Visible? Yes
-					Font Name: Default
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Default
 					Background Color: Default
@@ -16620,7 +16622,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -16669,7 +16671,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -16718,7 +16720,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -16742,7 +16744,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Default
@@ -16782,7 +16784,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -16832,7 +16834,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -16878,7 +16880,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -35203,7 +35205,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -35249,7 +35251,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Midnight Blue
@@ -35270,7 +35272,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -35314,7 +35316,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -35335,7 +35337,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -35379,7 +35381,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -35400,7 +35402,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -35444,7 +35446,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -35475,7 +35477,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 0.667"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -35854,7 +35856,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.583"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -36315,7 +36317,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -36355,7 +36357,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -36397,7 +36399,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -36425,7 +36427,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Midnight Blue
@@ -36552,7 +36554,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.75"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -38036,7 +38038,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Dark Blue
@@ -38082,7 +38084,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -38132,7 +38134,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -38178,7 +38180,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -38224,7 +38226,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -38265,7 +38267,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -38308,7 +38310,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -38355,7 +38357,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -38401,7 +38403,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -38447,7 +38449,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -38493,7 +38495,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -38536,7 +38538,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -38584,7 +38586,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: MS Sans Serif Greek
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -38634,7 +38636,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: MS Sans Serif Greek
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -38681,7 +38683,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -38724,7 +38726,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -38746,7 +38748,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -38766,7 +38768,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -38785,7 +38787,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -38804,7 +38806,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -38823,7 +38825,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -38842,7 +38844,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -38861,7 +38863,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -38880,7 +38882,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -38899,7 +38901,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -38919,7 +38921,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -38938,7 +38940,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -38958,7 +38960,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -38977,7 +38979,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -38997,7 +38999,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Black
@@ -39016,7 +39018,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -39034,7 +39036,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.583"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Midnight Blue
@@ -39052,7 +39054,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.333"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -39071,7 +39073,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -39113,7 +39115,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -39135,7 +39137,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Black
@@ -39403,8 +39405,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
-					Font Size: Class Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Class Default
 					Text Color: Class Default
 					Background Color: White
@@ -39449,8 +39451,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Invisible
 					Country: Class Default
-					Font Name: Class Default
-					Font Size: Class Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Class Default
 					Text Color: Class Default
 					Background Color: White
@@ -39996,7 +39998,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: None
 				Text Color: Black
@@ -40015,7 +40017,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: None
 				Text Color: Black
@@ -40035,7 +40037,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Center
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: None
 				Text Color: Dark Blue
@@ -40207,8 +40209,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Yes
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -40275,8 +40277,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri
+				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Black
 				Background Color: Default
@@ -40475,7 +40477,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: None
 				Text Color: Black
@@ -40515,8 +40517,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Class Default
-					Font Name: MS Sans Serif
-					Font Size: Class Default
+					Font Name: Calibri
+					Font Size: 10
 					Font Enhancement: Bold
 					Text Color: Dark Red
 					Background Color: White
@@ -40536,7 +40538,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: None
 				Text Color: Black
@@ -40576,8 +40578,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Invisible
 					Country: Class Default
-					Font Name: MS Sans Serif
-					Font Size: Class Default
+					Font Name: Calibri
+					Font Size: 10
 					Font Enhancement: Bold
 					Text Color: Dark Red
 					Background Color: White
@@ -40597,7 +40599,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: None
 				Text Color: Black
@@ -40625,8 +40627,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
-					Font Size: Default
+					Font Name: Calibri
+					Font Size: 10
 					Font Enhancement: Bold
 					Text Color: Dark Red
 					Background Color: Default
@@ -40979,7 +40981,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Center
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: None
 				Text Color: Dark Blue
@@ -41528,7 +41530,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -41549,7 +41551,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: Class Default
 				Font Enhancement: None
 				Text Color: Class Default
@@ -41588,7 +41590,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Invisible
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -41630,7 +41632,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -41672,7 +41674,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -41714,7 +41716,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -41735,7 +41737,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -41754,7 +41756,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -41773,7 +41775,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -41793,7 +41795,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -41813,7 +41815,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -41858,7 +41860,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -42464,7 +42466,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -42505,7 +42507,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -42540,7 +42542,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -42622,7 +42624,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -42643,7 +42645,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Right
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -42687,7 +42689,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -42708,7 +42710,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -42754,7 +42756,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -42815,7 +42817,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: Class Default
 					Font Enhancement: None
 					Text Color: Class Default
@@ -42836,7 +42838,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -42882,7 +42884,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: MS Sans Serif Greek
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -42943,7 +42945,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: MS Sans Serif Greek
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -42965,7 +42967,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -43010,7 +43012,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -43032,7 +43034,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -43078,7 +43080,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -43113,7 +43115,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -43159,7 +43161,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: MS Sans Serif Greek
+					Font Name: Class Default
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -43220,7 +43222,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: Class Default
 					Font Enhancement: None
 					Text Color: Class Default
@@ -43268,7 +43270,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: MS Sans Serif Greek
+					Font Name: Calibri
 					Font Size: Class Default
 					Font Enhancement: None
 					Text Color: Class Default
@@ -43293,7 +43295,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.417"
 						Height Editable? Yes
 					Visible? Yes
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -44449,7 +44451,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.667"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Midnight Blue
@@ -44467,7 +44469,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.083"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Midnight Blue
@@ -44490,7 +44492,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.0"
 						Height Editable? Yes
 					Visible? Yes
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -45380,7 +45382,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -45401,7 +45403,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Right
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -46281,7 +46283,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -46322,7 +46324,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -46361,7 +46363,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -46405,7 +46407,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: Class Default
 					Font Enhancement: Bold
 					Text Color: Dark Blue
@@ -46426,7 +46428,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -46470,7 +46472,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -46542,7 +46544,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -46582,7 +46584,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: Class Default
 				Font Enhancement: Bold
 				Text Color: Royal Blue
@@ -46618,7 +46620,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: 9
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -46658,7 +46660,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: Class Default
 				Font Enhancement: Bold
 				Text Color: Royal Blue
@@ -46699,7 +46701,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: 9
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -46739,7 +46741,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: Class Default
 				Font Enhancement: Bold
 				Text Color: Royal Blue
@@ -46825,7 +46827,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.5"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -46844,7 +46846,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -46909,7 +46911,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -46974,7 +46976,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -47039,7 +47041,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -47103,7 +47105,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.5"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -47122,7 +47124,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -47186,7 +47188,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.5"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -47217,7 +47219,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -47242,7 +47244,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -47307,7 +47309,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.5"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif Greek
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -47371,7 +47373,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.583"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif Greek
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -47389,7 +47391,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.75"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif Greek
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -47412,7 +47414,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 0.958"
 						Height Editable? Yes
 					Visible? Yes
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -47663,7 +47665,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.583"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif Greek
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -47683,7 +47685,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 0.958"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -47868,7 +47870,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.917"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -47902,9 +47904,9 @@ Application Description: SQLWindows version 5.0 starter application
 					Editable? Class Default
 				Display Settings
 					Window Location and Size
-						Left: 8.238"
+						Left: 8.088"
 						Top: 1.656"
-						Width:  0.5"
+						Width:  0.7"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
@@ -47913,7 +47915,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: 10
 					Font Enhancement: Class Default
 					Text Color: Midnight Blue
@@ -47987,7 +47989,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 0.958"
 						Height Editable? Yes
 					Visible? Yes
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -48264,7 +48266,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -48285,7 +48287,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -49163,7 +49165,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -49209,7 +49211,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Dark Blue
@@ -49236,7 +49238,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -49280,7 +49282,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -49305,7 +49307,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -49349,7 +49351,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -49374,7 +49376,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -49418,7 +49420,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -49453,7 +49455,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 0.75"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -49839,7 +49841,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.75"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -49862,7 +49864,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.083"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -50662,7 +50664,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.083"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -50685,7 +50687,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.5"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -51788,7 +51790,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -51810,7 +51812,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 1.588"
 						Top: 2.627"
-						Width:  0.5"
+						Width:  0.7"
 						Width Editable? Class Default
 						Height: 0.198"
 						Height Editable? Class Default
@@ -51819,7 +51821,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Red
@@ -52600,7 +52602,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -52644,7 +52646,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Midnight Blue
@@ -52665,7 +52667,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -52710,7 +52712,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -52739,7 +52741,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -52784,7 +52786,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Black
@@ -52806,7 +52808,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -52851,7 +52853,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -52872,7 +52874,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.5"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif Greek
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Dark Blue
@@ -52891,7 +52893,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Right
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -52932,7 +52934,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 7
 				Font Enhancement: None
 				Text Color: Midnight Blue
@@ -52969,7 +52971,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -53010,7 +53012,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: 7
 				Font Enhancement: Class Default
 				Text Color: Dark Blue
@@ -53045,7 +53047,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -53085,7 +53087,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: 7
 				Font Enhancement: Class Default
 				Text Color: Dark Blue
@@ -53130,7 +53132,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 0.65"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -53514,7 +53516,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.5"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -53537,7 +53539,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 2.27"
 						Height Editable? Yes
 					Visible? Yes
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Class Default
@@ -56016,7 +56018,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: Class Default
 					Font Enhancement: Bold
 					Text Color: Class Default
@@ -56062,7 +56064,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -56099,7 +56101,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 1.088"
 						Top: 0.74"
-						Width:  0.5"
+						Width:  0.6"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
@@ -56108,7 +56110,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: 10
 					Font Enhancement: Class Default
 					Text Color: Midnight Blue
@@ -56268,7 +56270,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -56407,7 +56409,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -56519,7 +56521,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -56580,8 +56582,8 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 3.77"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
-					Font Size: 8
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Class Default
 					Text Color: Class Default
 					Background Color: Class Default
@@ -57139,7 +57141,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -57158,7 +57160,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -57197,7 +57199,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -57234,7 +57236,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -57350,7 +57352,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -57374,7 +57376,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -60503,7 +60505,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 2.088"
 						Top: 0.198"
-						Width:  0.45"
+						Width:  0.8"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
@@ -60512,7 +60514,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Right
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -60533,7 +60535,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -60572,7 +60574,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -60595,7 +60597,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -60615,7 +60617,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -60635,7 +60637,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -60721,7 +60723,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -60765,7 +60767,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Date
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -60810,7 +60812,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -60837,7 +60839,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -60993,7 +60995,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -61037,7 +61039,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -61083,7 +61085,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -61129,7 +61131,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -61154,7 +61156,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.417"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -61822,7 +61824,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.417"
 						Height Editable? Yes
 					Visible? Yes
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -62058,7 +62060,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.0"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -62076,7 +62078,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.0"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -62237,7 +62239,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -62283,7 +62285,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -62329,7 +62331,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -62354,7 +62356,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.417"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -62510,6 +62512,37 @@ Application Description: SQLWindows version 5.0 starter application
 								!
 								Set colForeasCode =saValues[ SalListQuerySelection( colForeasText ) ]
 								Return VALIDATE_Ok
+					Column: col7
+						Class Child Ref Key: 0
+						Class ChildKey: 0
+						Class:
+						Property Template:
+						Class DLL Name:
+						Title:
+						Visible? Yes
+						Editable? Yes
+						Maximum Data Length: Default
+						Data Type: String
+						Justify: Left
+						Width:  Default
+						Width Editable? Yes
+						Format: Unformatted
+						Country: Default
+						Input Mask: Unformatted
+						Cell Options
+							Cell Type? Standard
+							Multiline Cell? No
+							Cell DropDownList
+								Sorted? Yes
+								Vertical Scroll? Yes
+								Auto Drop Down? No
+								Allow Text Editing? Yes
+							Cell CheckBox
+								Check Value:
+								Uncheck Value:
+								Ignore Case? Yes
+						List Values
+						Message Actions
 					Column: colDateApoXrim
 .data INHERITPROPS
 0000: 0100
@@ -62732,7 +62765,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.083"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -62751,7 +62784,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -62782,7 +62815,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -62803,7 +62836,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -63295,7 +63328,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 1.688"
 						Top: 0.406"
-						Width:  0.5"
+						Width:  1.1"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
@@ -63304,7 +63337,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -63350,7 +63383,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -63385,9 +63418,9 @@ Application Description: SQLWindows version 5.0 starter application
 					Editable? Class Default
 				Display Settings
 					Window Location and Size
-						Left: 6.488"
+						Left: 6.188"
 						Top: 1.031"
-						Width:  0.5"
+						Width:  0.8"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
@@ -63433,7 +63466,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 1.688"
 						Top: 1.031"
-						Width:  4.0"
+						Width:  3.9"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
@@ -63442,7 +63475,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -63490,7 +63523,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: Class Default
 					Font Enhancement: None
 					Text Color: Class Default
@@ -63551,7 +63584,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Unformatted
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: Class Default
 					Font Enhancement: None
 					Text Color: Class Default
@@ -63598,7 +63631,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Unformatted
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -63659,7 +63692,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Unformatted
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: Class Default
 					Font Enhancement: None
 					Text Color: Class Default
@@ -63706,7 +63739,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Unformatted
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -63767,7 +63800,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Unformatted
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: Class Default
 					Font Enhancement: None
 					Text Color: Class Default
@@ -63815,7 +63848,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Unformatted
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -63877,7 +63910,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Unformatted
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: Class Default
 					Font Enhancement: None
 					Text Color: Class Default
@@ -63897,7 +63930,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.333"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -63916,7 +63949,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -63935,7 +63968,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -63954,7 +63987,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -63973,7 +64006,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -63993,7 +64026,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -64012,7 +64045,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -64024,7 +64057,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Class ChildKey: 0
 				Class: CbgText
 				Window Location and Size
-					Left: 5.838"
+					Left: 5.638"
 					Top: 1.01"
 					Width:  0.6"
 					Width Editable? Class Default
@@ -64032,7 +64065,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -64051,7 +64084,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Default
@@ -64069,7 +64102,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.625"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -64232,7 +64265,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.0"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -64542,7 +64575,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.667"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -64731,7 +64764,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.75"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -65065,7 +65098,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.292"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -65084,7 +65117,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -65128,7 +65161,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -65174,7 +65207,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -65336,7 +65369,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -65355,7 +65388,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -65399,7 +65432,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -65445,7 +65478,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -65491,7 +65524,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -65516,7 +65549,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.375"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -65949,7 +65982,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -66157,7 +66190,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.833"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -66508,7 +66541,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.417"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -66558,7 +66591,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -66599,7 +66632,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -66730,8 +66763,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
-					Font Size: 8
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Default
 					Background Color: Default
@@ -66842,8 +66875,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Right
 					Format: Unformatted
 					Country: Default
-					Font Name: Default
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Default
 					Background Color: 3D Face Color
@@ -66967,7 +67000,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -67011,7 +67044,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -67057,7 +67090,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -67103,7 +67136,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -67128,7 +67161,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.375"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -67433,7 +67466,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -67490,7 +67523,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.0"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -67509,7 +67542,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -67677,7 +67710,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 1.288"
 						Top: 3.073"
-						Width:  0.5"
+						Width:  0.7"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
@@ -67686,7 +67719,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Right
 					Format: 0000
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -67802,7 +67835,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -67860,7 +67893,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.5"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: Class Default
 				Font Enhancement: None
 				Text Color: Midnight Blue
@@ -67882,7 +67915,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Black
@@ -67906,7 +67939,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Black
@@ -67930,7 +67963,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Black
@@ -67954,7 +67987,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Black
@@ -67981,7 +68014,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -68011,7 +68044,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 1.288"
 						Top: 3.406"
-						Width:  0.5"
+						Width:  0.7"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
@@ -68020,7 +68053,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Right
 					Format: 0000
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -68047,7 +68080,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: Default
 				Font Enhancement: Default
 				Text Color: Default
@@ -68075,7 +68108,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: Default
 				Font Enhancement: Default
 				Text Color: Default
@@ -68103,7 +68136,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: Default
 				Font Enhancement: Default
 				Text Color: Default
@@ -68145,8 +68178,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri
+				Font Size: 10
 				Font Enhancement: None
 				Text Color: Default
 				Background Color: Default
@@ -68882,7 +68915,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 10
 					Font Enhancement: Bold
 					Text Color: Midnight Blue
@@ -68953,7 +68986,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Center
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: Class Default
 				Font Enhancement: Bold
 				Text Color: Class Default
@@ -68994,7 +69027,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -69039,7 +69072,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 3.833"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -69062,7 +69095,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 3.042"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -69780,7 +69813,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Class Default
@@ -69816,7 +69849,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Center
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: Class Default
 				Font Enhancement: Bold
 				Text Color: Class Default
@@ -69834,7 +69867,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.25"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif Greek
+				Font Name: Calibri Light
 				Font Size: 10
 				Font Enhancement: Class Default
 				Text Color: Midnight Blue
@@ -69852,7 +69885,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 1.25"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: MS Sans Serif Greek
+				Font Name: Calibri Light
 				Font Size: 10
 				Font Enhancement: Class Default
 				Text Color: Dark Red
@@ -70494,7 +70527,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -70540,7 +70573,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -70586,7 +70619,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -70632,7 +70665,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -71483,7 +71516,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -71494,7 +71527,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Class ChildKey: 0
 				Class: CbgText
 				Window Location and Size
-					Left: 0.938"
+					Left: 1.138"
 					Top: 0.158"
 					Width:  0.75"
 					Width Editable? Class Default
@@ -71502,7 +71535,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -71521,7 +71554,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -71540,7 +71573,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -71707,8 +71740,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Right
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -71726,8 +71759,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Right
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -71745,8 +71778,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Right
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -71773,8 +71806,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Invisible
 					Country: Default
-					Font Name: Default
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Default
 					Background Color: Default
@@ -71803,8 +71836,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Invisible
 					Country: Default
-					Font Name: Default
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Default
 					Background Color: Default
@@ -71833,8 +71866,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Invisible
 					Country: Default
-					Font Name: Default
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Default
 					Background Color: Default
@@ -72239,7 +72272,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Default
@@ -72258,7 +72291,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 2.938"
 						Top: 0.156"
-						Width:  0.85"
+						Width:  0.95"
 						Width Editable? Yes
 						Height: 0.333"
 						Height Editable? Yes
@@ -72267,8 +72300,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
-					Font Size: 12
+					Font Name: Calibri
+					Font Size: 10
 					Font Enhancement: Bold
 					Text Color: Midnight Blue
 					Background Color: Light Gray
@@ -72316,7 +72349,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 2.938"
 						Top: 0.656"
-						Width:  0.85"
+						Width:  0.95"
 						Width Editable? Yes
 						Height: 0.333"
 						Height Editable? Yes
@@ -72325,8 +72358,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
-					Font Size: 12
+					Font Name: Calibri
+					Font Size: 10
 					Font Enhancement: Bold
 					Text Color: Dark Blue
 					Background Color: 3D Face Color
@@ -72424,8 +72457,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -72454,8 +72487,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -72652,7 +72685,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Default
@@ -72671,7 +72704,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 2.838"
 						Top: 0.156"
-						Width:  0.85"
+						Width:  1.15"
 						Width Editable? Yes
 						Height: 0.333"
 						Height Editable? Yes
@@ -72680,7 +72713,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 12
 					Font Enhancement: Bold
 					Text Color: Midnight Blue
@@ -72729,7 +72762,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 2.838"
 						Top: 0.573"
-						Width:  0.85"
+						Width:  1.15"
 						Width Editable? Yes
 						Height: 0.333"
 						Height Editable? Yes
@@ -72738,8 +72771,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
-					Font Size: 12
+					Font Name: Calibri
+					Font Size: 10
 					Font Enhancement: Bold
 					Text Color: Dark Blue
 					Background Color: 3D Face Color
@@ -72896,8 +72929,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -72926,8 +72959,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -72956,8 +72989,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -72988,8 +73021,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -73231,8 +73264,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
-					Font Size: 12
+					Font Name: Calibri
+					Font Size: 10
 					Font Enhancement: Bold
 					Text Color: Midnight Blue
 					Background Color: Default
@@ -73273,8 +73306,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Yes
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -73384,7 +73417,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Default
-					Font Name: Default
+					Font Name: Calibri Light
 					Font Size: Default
 					Font Enhancement: Default
 					Text Color: Default
@@ -73467,8 +73500,8 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.417"
 						Height Editable? Yes
 					Visible? Yes
-					Font Name: Default
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Default
 					Background Color: Default
@@ -73618,8 +73651,8 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.417"
 						Height Editable? Yes
 					Visible? Yes
-					Font Name: Default
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Default
 					Background Color: Default
@@ -73828,7 +73861,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Class Default
@@ -73853,7 +73886,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: Bold
 				Text Color: Default
@@ -73884,7 +73917,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: Bold
 				Text Color: Default
@@ -73910,8 +73943,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -73930,8 +73963,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -73950,8 +73983,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -73969,8 +74002,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -73989,8 +74022,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -74015,8 +74048,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -74062,7 +74095,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Class Default
 				Always Show List? Class Default
 				Vertical Scroll? Class Default
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: Bold
 				Text Color: Class Default
@@ -74269,7 +74302,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -74315,7 +74348,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -74361,7 +74394,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -74386,7 +74419,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.417"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -74821,7 +74854,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.083"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -74840,7 +74873,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -74884,7 +74917,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -74905,7 +74938,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -76845,7 +76878,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.75"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -77508,7 +77541,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.292"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -77527,7 +77560,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -77546,7 +77579,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -77590,7 +77623,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -77636,7 +77669,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -77681,7 +77714,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -77726,7 +77759,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -77880,7 +77913,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.375"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -78263,7 +78296,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -78282,7 +78315,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -78326,7 +78359,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -78372,7 +78405,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -78418,7 +78451,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -78463,7 +78496,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
 					Text Color: Class Default
@@ -78815,7 +78848,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Default
@@ -78834,7 +78867,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 3.138"
 						Top: 0.156"
-						Width:  0.85"
+						Width:  0.95"
 						Width Editable? Yes
 						Height: 0.333"
 						Height Editable? Yes
@@ -78843,8 +78876,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
-					Font Size: 12
+					Font Name: Calibri
+					Font Size: 10
 					Font Enhancement: Bold
 					Text Color: Midnight Blue
 					Background Color: Light Gray
@@ -78892,7 +78925,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 3.138"
 						Top: 0.656"
-						Width:  0.85"
+						Width:  0.95"
 						Width Editable? Yes
 						Height: 0.333"
 						Height Editable? Yes
@@ -78901,8 +78934,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
-					Font Size: 12
+					Font Name: Calibri
+					Font Size: 10
 					Font Enhancement: Bold
 					Text Color: Dark Blue
 					Background Color: 3D Face Color
@@ -79000,8 +79033,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -79031,8 +79064,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -79332,7 +79365,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 2.388"
 						Top: 0.2"
-						Width:  0.85"
+						Width:  1.0"
 						Width Editable? Yes
 						Height: 0.333"
 						Height Editable? Yes
@@ -79341,8 +79374,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
-					Font Size: 12
+					Font Name: Calibri
+					Font Size: 10
 					Font Enhancement: Bold
 					Text Color: Midnight Blue
 					Background Color: Default
@@ -79377,7 +79410,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Default
@@ -79402,8 +79435,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? Yes
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -79467,8 +79500,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -79497,8 +79530,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -79529,8 +79562,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Sorted? No
 				Always Show List? No
 				Vertical Scroll? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -79555,7 +79588,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Default
@@ -79755,7 +79788,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Unformatted
 					Country: Default
-					Font Name: Default
+					Font Name: Calibri Light
 					Font Size: Default
 					Font Enhancement: Default
 					Text Color: Black
@@ -79801,7 +79834,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Class Default
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: Class Default
 					Font Enhancement: Bold
 					Text Color: Class Default
@@ -81174,7 +81207,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Class Default
@@ -81218,7 +81251,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Center
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -81264,7 +81297,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -81310,7 +81343,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -81335,7 +81368,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.375"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -81654,7 +81687,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.0"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -81696,7 +81729,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 1.375"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -81853,7 +81886,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 2.0"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -81987,8 +82020,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Right
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -82006,8 +82039,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Right
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -82025,8 +82058,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Right
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: Default
 				Background Color: Default
@@ -82054,8 +82087,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Invisible
 					Country: Default
-					Font Name: Default
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Dark Red
 					Background Color: Default
@@ -82088,8 +82121,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Invisible
 					Country: Default
-					Font Name: Default
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Red
 					Background Color: Default
@@ -82122,8 +82155,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Invisible
 					Country: Default
-					Font Name: Default
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Red
 					Background Color: Default
@@ -82755,7 +82788,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Right
 					Format: Class Default
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -82801,7 +82834,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Uppercase
 					Country: Class Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -82847,7 +82880,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Right
 					Format: Uppercase
 					Country: Class Default
-					Font Name: Class Default
+					Font Name: Calibri
 					Font Size: 8
 					Font Enhancement: None
 					Text Color: Black
@@ -83283,7 +83316,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -83302,7 +83335,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -83321,7 +83354,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Left
-				Font Name: Class Default
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: Bold
 				Text Color: Dark Blue
@@ -83448,7 +83481,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Left
-				Font Name: MS Sans Serif
+				Font Name: Calibri Light
 				Font Size: 8
 				Font Enhancement: Default
 				Text Color: Default
@@ -83467,7 +83500,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Window Location and Size
 						Left: 1.238"
 						Top: 0.573"
-						Width:  0.825"
+						Width:  1.25"
 						Width Editable? Yes
 						Height: 0.25"
 						Height Editable? Yes
@@ -83476,7 +83509,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Unformatted
 					Country: Default
-					Font Name: MS Sans Serif
+					Font Name: Calibri Light
 					Font Size: 8
 					Font Enhancement: Default
 					Text Color: Default
@@ -88331,7 +88364,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Center
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: White
@@ -88350,7 +88383,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Center
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: White
@@ -88369,7 +88402,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Center
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 10
 				Font Enhancement: Bold
 				Text Color: White
@@ -88419,7 +88452,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Yes
 				Visible? Yes
 				Justify: Center
-				Font Name: MS Sans Serif
+				Font Name: Calibri
 				Font Size: 8
 				Font Enhancement: None
 				Text Color: Dark Gray
@@ -88576,8 +88609,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: White
 				Background Color: Light Periwinkle
@@ -88600,9 +88633,9 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: Default
-				Font Size: Default
-				Font Enhancement: Bold
+				Font Name: Calibri
+				Font Size: 10
+				Font Enhancement: Default
 				Text Color: White
 				Background Color: Light Periwinkle
 				Message Actions
@@ -88624,8 +88657,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: White
 				Background Color: Light Periwinkle
@@ -88648,8 +88681,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: White
 				Background Color: Light Periwinkle
@@ -88676,8 +88709,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: White
 				Background Color: Light Periwinkle
@@ -88700,8 +88733,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: White
 				Background Color: Light Periwinkle
@@ -88728,8 +88761,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: White
 				Background Color: Light Periwinkle
@@ -88752,8 +88785,8 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 0.25"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: Default
-				Font Size: Default
+				Font Name: Calibri Light
+				Font Size: 10
 				Font Enhancement: Default
 				Text Color: White
 				Background Color: Light Periwinkle
@@ -89467,8 +89500,8 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 5.583"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: Class Default
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Class Default
 					Text Color: Class Default
 					Background Color: Class Default
@@ -90433,7 +90466,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 7.333"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Black
@@ -91932,7 +91965,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Justify: Left
 					Format: Unformatted
 					Country: Default
-					Font Name: Default
+					Font Name: Calibri Light
 					Font Size: Default
 					Font Enhancement: Default
 					Text Color: Default
@@ -92026,7 +92059,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: 10
 				Font Enhancement: Class Default
 				Text Color: Blue
@@ -92045,7 +92078,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: 10
 				Font Enhancement: Class Default
 				Text Color: Blue
@@ -92064,7 +92097,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: 10
 				Font Enhancement: Class Default
 				Text Color: Blue
@@ -92083,7 +92116,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: 10
 				Font Enhancement: Class Default
 				Text Color: Blue
@@ -92654,8 +92687,8 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 5.583"
 						Height Editable? Class Default
 					Visible? Class Default
-					Font Name: Class Default
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Class Default
 					Text Color: Class Default
 					Background Color: Class Default
@@ -93539,7 +93572,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 7.333"
 					Height Editable? Class Default
 				Visible? Class Default
-				Font Name: Class Default
+				Font Name: Calibri Light
 				Font Size: Class Default
 				Font Enhancement: Class Default
 				Text Color: Black
@@ -94611,8 +94644,8 @@ Application Description: SQLWindows version 5.0 starter application
 						Height: 5.583"
 						Height Editable? Yes
 					Visible? Yes
-					Font Name: MS Sans Serif
-					Font Size: Default
+					Font Name: Calibri Light
+					Font Size: 10
 					Font Enhancement: Default
 					Text Color: Default
 					Background Color: Default
@@ -95559,7 +95592,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Height: 7.333"
 					Height Editable? Yes
 				Visible? Yes
-				Font Name: HellasArial
+				Font Name: Calibri
 				Font Size: 9
 				Font Enhancement: Bold
 				Text Color: Black
