@@ -17,9 +17,8 @@ Application Description: SQLWindows version 5.0 starter application
 .data VIEWINFO
 0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
 0020: 0000000000640100 002C000000020000 0003000000FFFFFF FFFFFFFFFFF8FFFF
-0040: FFE1FFFFFFFCFFFF FF02000000280300 00B8010000010000 0000000000010000
-0060: 000F4170706C6963 6174696F6E497465 6D04000000075769 6E646F77730B6D64
-0080: 6966726D53746172 740946756E637469 6F6E730755736545 435453
+0040: FFE1FFFFFFFCFFFF FF02000000280300 00B8010000010000 0001000000010000
+0060: 000F4170706C6963 6174696F6E497465 6D00000000
 .enddata
 .data DT_MAKERUNDLG
 0000: 0900001000000000 1D433A5C4E545541 5249535C494D4147 45535C49434F5C6D
@@ -24845,11 +24844,17 @@ Application Description: SQLWindows version 5.0 starter application
 												   Set sProgTitle = 'диепистгломийо пяоцяалла'
 											Set sODOS = 'GRADUATED IN ACADEMIC YEAR '|| sAkApof ||' AND RECEIVED THE POSTGRADUATE '
 											If sKatCode = '00' or sKatCode = '21' or sKatCode = '91' or sKatCode = '92' or sKatCode = '19' or sKatCode = STRING_Null
-												Set sODOS = sODOS|| ' DIPLOMA OF SPECIALIZATION ON THE UPPER INTERDEPARTMENTAL PROGRAM OF THE POSTGRAGUATE STUDIES OF THE NATIONAL TECHNICAL UNIVERSITY OF ATHENS. '
+												If nCodeTmima = 2 and sProgramCodeStud = '3'
+													Set sODOS = sODOS|| ' DIPLOMA OF SPECIALIZATION ON THE UPPER INTERUNIVERSITY PROGRAM OF THE POSTGRAGUATE STUDIES OF THE NATIONAL TECHNICAL UNIVERSITY OF ATHENS. '
+												Else
+													Set sODOS = sODOS|| ' DIPLOMA OF SPECIALIZATION ON THE UPPER INTERDEPARTMENTAL PROGRAM OF THE POSTGRAGUATE STUDIES OF THE NATIONAL TECHNICAL UNIVERSITY OF ATHENS. '
 												! Set sODOS = sODOS|| ' дипкыла еидийеусгс сто амытеяы '||sProgTitle||' летаптувиайым споудым тоу елп. '
 												!
 											Else
-												Set sODOS = sODOS|| ' DIPLOMA OF SPECIALIZATION ON THE UPPER INTERDEPARTMENTAL PROGRAM OF THE POSTGRAGUATE STUDIES OF THE NATIONAL TECHNICAL UNIVERSITY OF ATHENS им тге DIRECTION OF '
+												If nCodeTmima = 2 and sProgramCodeStud = '3'
+													Set sODOS = sODOS|| ' DIPLOMA OF SPECIALIZATION ON THE UPPER  INTERUNIVERSITY PROGRAM OF THE POSTGRAGUATE STUDIES OF THE NATIONAL TECHNICAL UNIVERSITY OF ATHENS им тге DIRECTION OF '
+												Else
+													Set sODOS = sODOS|| ' DIPLOMA OF SPECIALIZATION ON THE UPPER INTERDEPARTMENTAL PROGRAM OF THE POSTGRAGUATE STUDIES OF THE NATIONAL TECHNICAL UNIVERSITY OF ATHENS им тге DIRECTION OF '
 												! Set sODOS = sODOS|| ' дипкыла еидийеусгс сто амытеяы '||sProgTitle||' тоу елп, стгм '||sLECTKAT||' '
 												! Set sODOS = sODOS|| ' дипкыла еидийеусгс сто амытеяы '||sProgTitle||' летаптувиайым споудым тоу елп, стгм '||sLECTKAT||' '
 												! Call SalTblGetColumnText( tblMetStudProg, 6, sKatefEgg )
@@ -24874,19 +24879,31 @@ Application Description: SQLWindows version 5.0 starter application
 																	текеиысе тис летаптувиайес енетасеис тгм пеяиодо тоу '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' тоу '||SalStrMidX( sDescrDateEj, 0, 4 )||'.
 																	та апотекеслата тгс енетасгс тгс летаптувиайгс еяцасиас ейдохгйам тгм '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
 																	та апотекеслата ейдохгйам апо тгм еидийг диатлглатийг епитяопг споудым стис '
-															Set sODOS = sODOS||'
-																	HE COMPLETED HIS POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.
-																	THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
-																	THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERDEPARTMENTAL COMMITTEE ON '
+															If nCodeTmima = 2 and sProgramCodeStud = '3'
+																Set sODOS = sODOS||'
+																		HE COMPLETED HIS POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERUNIVERSITY COMMITTEE ON '
+															Else
+																Set sODOS = sODOS||'
+																		HE COMPLETED HIS POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERDEPARTMENTAL COMMITTEE ON '
 														Else
 															! Set sODOS = sODOS||'
 																	текеиысе тис летаптувиайес енетасеис тгм пеяиодо тоу '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' тоу '||SalStrMidX( sDescrDateEj, 0, 4)||'.(апожасг еде '||sDateEDE||').
 																	та апотекеслата тгс енетасгс тгс летаптувиайгс еяцасиас ейдохгйам тгм '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'
 																	та апотекеслата ейдохгйам апо тгм еидийг диатлглатийг епитяопг споудым стис '
-															Set sODOS = sODOS||'
-																	HE COMPLETED HIS POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.(I.C. DECISION DATE '||sDateEDE||').
-																	THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
-																	THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERDEPARTMENTAL COMMITTEE ON '
+															If nCodeTmima = 2 and sProgramCodeStud = '3'
+																Set sODOS = sODOS||'
+																		HE COMPLETED HIS POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.(I.C. DECISION DATE '||sDateEDE||').
+																		THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERUNIVERSITY COMMITTEE ON '
+															Else
+																Set sODOS = sODOS||'
+																		HE COMPLETED HIS POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.(I.C. DECISION DATE '||sDateEDE||').
+																		THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERDEPARTMENTAL COMMITTEE ON '
 													Else If sFylo1 = '2'
 														!
 														! Set sODOS = sODOS||'
@@ -24898,19 +24915,31 @@ Application Description: SQLWindows version 5.0 starter application
 																	текеиысе тис летаптувиайес енетасеис тгм пеяиодо тоу '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' тоу '||SalStrMidX( sDescrDateEj, 0, 4 )||'.
 																	та апотекеслата тгс енетасгс тгс летаптувиайгс еяцасиас ейдохгйам тгм '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
 																	та апотекеслата ейдохгйам апо тгм еидийг диатлглатийг епитяопг споудым стис '
-															Set sODOS = sODOS||'
-																	SHE COMPLETED HER POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.
-																	THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
-																	THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERDEPARTMENTAL COMMITTEE ON '
+															If nCodeTmima = 2 and sProgramCodeStud = '3'
+																Set sODOS = sODOS||'
+																		SHE COMPLETED HER POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERUNIVERSITY COMMITTEE ON '
+															Else
+																Set sODOS = sODOS||'
+																		SHE COMPLETED HER POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERDEPARTMENTAL COMMITTEE ON '
 														Else
 															! Set sODOS = sODOS||'
 																	текеиысе тис летаптувиайес енетасеис тгм пеяиодо тоу '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' тоу '||SalStrMidX( sDescrDateEj, 0, 4 )||'.(апожасг еде '||sDateEDE||').
 																	та апотекеслата тгс енетасгс тгс летаптувиайгс еяцасиас ейдохгйам тгм '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
 																	та апотекеслата ейдохгйам апо тгм еидийг диатлглатийг епитяопг споудым стис '
-															Set sODOS = sODOS||'
-																	SHE COMPLETED HER POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.(I.C. DECISION DATE '||sDateEDE||').
-																	THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
-																	THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERDEPARTMENTAL COMMITTEE ON '
+															If nCodeTmima = 2 and sProgramCodeStud = '3'
+																Set sODOS = sODOS||'
+																		SHE COMPLETED HER POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.(I.C. DECISION DATE '||sDateEDE||').
+																		THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERUNIVERSITY COMMITTEE ON '
+															Else
+																Set sODOS = sODOS||'
+																		SHE COMPLETED HER POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.(I.C. DECISION DATE '||sDateEDE||').
+																		THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERDEPARTMENTAL COMMITTEE ON '
 													Else
 														!
 														! Set sODOS = sODOS||'
@@ -24922,19 +24951,31 @@ Application Description: SQLWindows version 5.0 starter application
 																	текеиысе тис летаптувиайес енетасеис тгм пеяиодо тоу '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' тоу '||SalStrMidX( sDescrDateEj, 0, 4 )||'.
 																	та апотекеслата тгс енетасгс тгс летаптувиайгс еяцасиас ейдохгйам тгм '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
 																	та апотекеслата ейдохгйам апо тгм еидийг диатлглатийг епитяопг споудым стис '
-															Set sODOS = sODOS||'
-																	HE/SHE COMPLETED HIS/HER POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.
-																	THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
-																	THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERDEPARTMENTAL COMMITTEE ON '
+															If nCodeTmima = 2 and sProgramCodeStud = '3'
+																Set sODOS = sODOS||'
+																		HE/SHE COMPLETED HIS/HER POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERUNIVERSITY COMMITTEE ON '
+															Else
+																Set sODOS = sODOS||'
+																		HE/SHE COMPLETED HIS/HER POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERDEPARTMENTAL COMMITTEE ON '
 														Else
 															! Set sODOS = sODOS||'
 																	текеиысе тис летаптувиайес енетасеис тгм пеяиодо тоу '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' тоу '||SalStrMidX( sDescrDateEj, 0, 4 )||'.(апожасг еде '||sDateEDE||').
 																	та апотекеслата тгс енетасгс тгс летаптувиайгс еяцасиас ейдохгйам тгм '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
 																	та апотекеслата ейдохгйам апо тгм еидийг диатлглатийг епитяопг споудым стис '
-															Set sODOS = sODOS||'
-																	HE/SHE COMPLETED HIS/HER POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.(I.C. DECISION DATE '||sDateEDE||').
-																	THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
-																	THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERDEPARTMENTAL COMMITTEE ON '
+															If nCodeTmima = 2 and sProgramCodeStud = '3'
+																Set sODOS = sODOS||'
+																		HE/SHE COMPLETED HIS/HER POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.(I.C. DECISION DATE '||sDateEDE||').
+																		THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERUNIVERSITY COMMITTEE ON '
+															Else
+																Set sODOS = sODOS||'
+																		HE/SHE COMPLETED HIS/HER POSTGRADUATE EXAMS IN THE PERIOD OF '|| SalStrMidX( sDescrDateEj, 4,SalStrLength( sDescrDateEj)-4) ||' '||SalStrMidX( sDescrDateEj, 0, 4 )||'.(I.C. DECISION DATE '||sDateEDE||').
+																		THE RESULTS OF THE DIPLOMA THESIS EXAMINATION WERE ISSUED ON '||SalStrMidX( sDateEj, 8, 2 )|| '/'||SalStrMidX( sDateEj, 5, 2 )||'/'||SalStrMidX( sDateEj, 0, 4 )||'.
+																		THE RESULTS OF THE EXAMS WERE ISSUED BY THE INTERDEPARTMENTAL COMMITTEE ON '
 													Set sDateAn = SalStrMidX( sDateAn, 8, 2 )|| '/'||SalStrMidX( sDateAn, 5, 2 )||'/'||SalStrMidX( sDateAn, 0, 4 )
 													Set sODOS = sODOS|| sDateAn ||'.'
 												! цИА ЭКОУР ТОУР эККОУР
