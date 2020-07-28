@@ -17,8 +17,9 @@ Application Description: SQLWindows version 5.0 starter application
 .data VIEWINFO
 0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
 0020: 0000000000640100 002C000000020000 0003000000FFFFFF FFFFFFFFFFF8FFFF
-0040: FFE1FFFFFFFCFFFF FF02000000280300 00B8010000010000 0001000000010000
-0060: 000F4170706C6963 6174696F6E497465 6D00000000
+0040: FFE1FFFFFFFCFFFF FF02000000280300 00B8010000010000 0000000000010000
+0060: 000F4170706C6963 6174696F6E497465 6D04000000075769 6E646F77730B6D64
+0080: 6966726D53746172 740946756E637469 6F6E730755736545 435453
 .enddata
 .data DT_MAKERUNDLG
 0000: 0900001000000000 1D433A5C4E545541 5249535C494D4147 45535C49434F5C6D
@@ -5728,7 +5729,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Set sSelect = "select ak into :ak from metstuprog where mitroo = '"||mitroo||"' and progcode = "||program
 					Call SqlImmediate( sSelect )
 					Call SqlClearImmediate(  )
-					If ak >= 2015 and ((tmima = 1 and program = '3') or (tmima = 3 and program = '2') or (tmima = 2 and program = '3') or (tmima = 5 ))
+					If ak >= 2015 and ((tmima = 1 and program = '3') or (tmima = 3 and program = '2') or (tmima = 2 and program = '3') or (tmima = 5 ) or tmima = 6)
 						Return TRUE
 					Else
 						Return FALSE
