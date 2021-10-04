@@ -40488,7 +40488,7 @@ Application Description: SQLWindows version 5.0 starter application
 							Set BankName = "base05"
 						Else If SalListQuerySelection ( cmbGramSxoli ) = 6
 							Set nCodeTmima = 6
-							Set BankName = "base"
+							Set BankName = "base06"
 						Else If SalListQuerySelection ( cmbGramSxoli ) = 7
 							Set nCodeTmima = 7
 							Set BankName = "base07"
