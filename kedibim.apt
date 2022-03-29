@@ -16,9 +16,11 @@ Application Description: SQLWindows version 5.0 starter application
 	Design-time Settings
 .data VIEWINFO
 0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
-0020: 0000000000640100 002C000000020000 0003000000FFFFFF FFFFFFFFFFF8FFFF
-0040: FFE1FFFFFFFCFFFF FF02000000280300 00B8010000010000 0001000000010000
-0060: 000F4170706C6963 6174696F6E497465 6D00000000
+0020: 0000000000680100 002C000000020000 0003000000FFFFFF FFFFFFFFFFF8FFFF
+0040: FFE1FFFFFFFCFFFF FF02000000280300 00B8010000010000 0000000000010000
+0060: 000F4170706C6963 6174696F6E497465 6D06000000075769 6E646F777307646C
+0080: 6750726F670D4368 696C642057696E64 6F77730774626C50 726F6707436F6C75
+00A0: 6D6E730D636F6C54 69746C6F7350726F 67
 .enddata
 .data DT_MAKERUNDLG
 0000: 0900001000000000 1D433A5C4E545541 5249535C494D4147 45535C49434F5C6D
@@ -724,26 +726,26 @@ Application Description: SQLWindows version 5.0 starter application
 			Bitmap: Testsql
 				File Name: C:\NTUARIS\IMAGES\BMP\Testsql.bmp
 		Variables
-.data RESOURCE 0 0 1 1917230811
+.data RESOURCE 0 0 1 3450855218
 0000: 880300004D020000 0000000000000000 0200001E000000FC 0400001019000000
-0020: 012607F02F000000 0073000000010000 0083150500001925 0001263000BC0000
-0040: 73D100010000682E 0500190009012631 0000006F73003401 000047055A001900
-0060: 01C226320000001B 730001008D006005 009619000126F033 0000004673000100
-0080: 00A3790500192500 0126A803B8000000 73D1000100006892 05001900890126A9
-00A0: 03006E0073003401 0000AB055A001900 01A226AA0300001B 730001008D00C405
-00C0: 009619000126E8AB 0300004673000100 00A3DD0500192500 0126AC03BA000073
-00E0: D10001000068F605 0019006901262F00 6F7300340100000F 06580000190001DA
-0100: 2630001B73000100 8D00280600961900 0126F63100467300 010000A341060019
-0120: A500012632BD0073 D100010000685A06 0019006901263300 6F73003401000073
-0140: 065A00190001C226 E900000013730000 01008D008C060096 19000126F0EA0000
-0160: 00467300010000A3 A506001925000126 EB00BC000073D100 01000068BE060019
-0180: 00090126EC000000 6F730034010000D7 065A00190001C226 ED0000001B730001
-01A0: 008D00F006009619 000126F62F004673 0001000083090700 0019A500012630BD
-01C0: 0073D10001000068 2207001900690126 31006F7300340100 003B075A00190001
-01E0: DA2632001B730001 008D005407009619 000126F633004673 00010000A36D0700
-0200: 1925000126F100BC 000073D100010000 6886070019000901 26F20000006F7300
-0220: 340100009F075A00 190001C226F30000 001B730001008D00 B807009619000126
-0240: F0F4000000467300 010000A3D1070019 25000126F500BC00 0073D100010000
+0020: 01C007F02F000000 0073000000010000 0083150500001925 0001C03000BC0000
+0040: 73D100010000682E 050019000901C031 0000006F73003401 000047055A001900
+0060: 01C2C0320000001B 730001008D006005 0096190001C0F033 0000004673000100
+0080: 00A3790500192500 01C0A803B8000000 73D1000100006892 050019008901C0A9
+00A0: 03006E0073003401 0000AB055A001900 01A2C0AA0300001B 730001008D00C405
+00C0: 0096190001C0E8AB 0300004673000100 00A3DD0500192500 01C0AC03BA000073
+00E0: D10001000068F605 0019006901C02F00 6F7300340100000F 06580000190001DA
+0100: C030001B73000100 8D00280600961900 01C0F63100467300 010000A341060019
+0120: A50001C032BD0073 D100010000685A06 0019006901C03300 6F73003401000073
+0140: 065A00190001C2C0 E900000013730000 01008D008C060096 190001C0F0EA0000
+0160: 00467300010000A3 A5060019250001C0 EB00BC000073D100 01000068BE060019
+0180: 000901C0EC000000 6F730034010000D7 065A00190001C2C0 ED0000001B730001
+01A0: 008D00F006009619 0001C0F62F004673 0001000083090700 0019A50001C030BD
+01C0: 0073D10001000068 22070019006901C0 31006F7300340100 003B075A00190001
+01E0: DAC032001B730001 008D005407009619 0001C0F633004673 00010000A36D0700
+0200: 19250001C0F100BC 000073D100010000 6886070019000901 C0F20000006F7300
+0220: 340100009F075A00 190001C2C0F30000 001B730001008D00 B8070096190001C0
+0240: F0F4000000467300 010000A3D1070019 250001C0F500BC00 0073D100010000
 .enddata
 			Number: nAkTrexon
 			String: sXuTrexon
@@ -1127,50 +1129,50 @@ Application Description: SQLWindows version 5.0 starter application
 					Menu Actions
 						Call SalMDIArrangeIcons( hWndMDI )
 		Class Definitions
-.data RESOURCE 0 0 1 446659297
+.data RESOURCE 0 0 1 1378681563
 0000: 690D000052080000 0000000000000000 0200001900FFFF01 00160000436C6173
 0020: 73566172004F7574 6C696E6552006567 496E666FA8003C00 000763006C734461
-0040: 7461AA02C0000015 0000004304000000 02C0260705000000 00BC0C7300000001
-0060: 006C00000400D604 0002B006000000BC 6700010083080000 0019040000012607
+0040: 7461AA02C0000015 0000004304000000 02C0C00705000000 00BC0C7300000001
+0060: 006C00000400D604 0002B006000000BC 6700010083080000 001904000001C007
 0080: 0700EC0000BCD100 0100006021000000 04004D020800007B BC00360100250058
 00A0: 0000040002C30900 00009EBC00010D00 29000000D6040002 B00A000000BC6700
-00C0: 0100832D00000004 05000326070B00EC 0000BCD900010060 3100000004000D02
+00C0: 0100832D00000004 050003C0070B00EC 0000BCD900010060 3100000004000D02
 00E0: 0C0000007BBC0036 0100350058000004 0002C30D0000009E BC00010D00390000
 0100: 00D6040002B00E00 0000BC6700010083 3D00000004350002 0F00EC0000BCD900
-0120: 0100604100000019 0009012610000000 7BBC00340100005A 00580000040002C3
-0140: 110000009EBC0001 0D005E0000008619 00010126F0120000 00033B0000000100
-0160: BD003B8100620000 0004210001022613 00FC0000463B0001 00006F3B00606600
+0120: 0100604100000019 000901C010000000 7BBC00340100005A 00580000040002C3
+0140: 110000009EBC0001 0D005E0000008619 000101C0F0120000 00033B0000000100
+0160: BD003B8100620000 000421000102C013 00FC0000463B0001 00006F3B00606600
 0180: 000019000C010114 000000BF3BD10001 00001B3B006A0018 000019000101D315
-01A0: 00006F3B00F40100 00063B006E000000 9619000126B01600 0000BC4700010000
+01A0: 00006F3B00F40100 00063B006E000000 96190001C0B01600 0000BC4700010000
 01C0: 8387000000043100 01021700FC000046 3B000100006F3B00 608B00000004000C
-01E0: 010218000000BF3B D1000100001B3B00 8F00580000190001 D2261900001EBC00
+01E0: 010218000000BF3B D1000100001B3B00 8F00580000190001 D2C01900001EBC00
 0200: 01000D0001800400 1100010000106302 6C546F6F6C546900 7057696E646F7722
 0220: B00000000100B704 00B603050031C80C 7300011B00018010 2200000200000B00
-0240: 47656E53716C4669 00656C647C000000 047B00044B000226 081B00DA0C73A300
-0260: 0100000D04003E00 0042000726070901 E13410DA0C640001 000008B3000400B6
+0240: 47656E53716C4669 00656C647C000000 047B00044B0002C0 081B00DA0C73A300
+0260: 0100000D04003E00 00420007C0070901 E13410DA0C640001 000008B3000400B6
 0280: 020B003DDA00019B 000C00AC00040002 6D0C00DACF000186 0001801900000003
-02A0: 0000000B4344C069 727479436C892200 000100DE0019D200 012605C600EC0C73
+02A0: 0000000B4344C069 727479436C892200 000100DE0019D200 01C005C600EC0C73
 02C0: 680001000001C880 0C00000490000F47 6557698773636C61 C95E000003DE0004
 02E0: 1A00072000019400 BC00730064000100 0004B30004004607 640001BC37730001
 0300: D9000008AC000400 07C179020100BC4D 7300010086000180 080008000500000C
-0320: 436400664C696E6B 506C530271400000 000200BD0004A500 0226080D005E0D73
+0320: 436400664C696E6B 506C530271400000 000200BD0004A500 02C0080D005E0D73
 0340: 00D1000100006604 0004002D02090000 7B5E003601000180 442D0000060000F8
 0360: 0A4364045371C000 0000067B00046B00 020A1B00700D73A3 00010000CD040004
 0380: DA00020BF600706C 00010008B3000400 B6020C003D700001 9B000C008C000400
-03A0: 0102ED0D003F8001 F800000027100000 194B0001260EDB00 70A300010000CD29
+03A0: 0102ED0D003F8001 F800000027100000 194B0001C00EDB00 70A300010000CD29
 03C0: 003E5A00070F01E5 34700D6400010000 018C802D000700F0 000D4364E154626C
 03E0: 53B3000600B70400 B6020D0031820D73 0001DA000004AC00 0400026D0E0082CF
-0400: 000136000800046B 00020FD9000082B3 000100CD0C0004D0 0001022610FE0093
-0420: 800100007F10B300 1900B40126110039 820D0001DA000029 2C003E0007265512
+0400: 000136000800046B 00020FD9000082B3 000100CD0C0004D0 000102C010FE0093
+0420: 800100007F10B300 1900B401C0110039 820D0001DA000029 2C003E0007C05512
 0440: 0134824E0D000100 860001803D000C00 08000A636CC07343 6F6C446158300100
 0460: 00006F04006D0205 0063B80D7300B401 0000045900040002 DB06009EB800016D
 0480: 000800D6040002B6 0700B8670001009B 0C0004B5000208ED 00B8D90001006610
-04A0: 0004006D0209007B B800360100140059 00190001DA260A00 1EB80001006D002D
+04A0: 0004006D0209007B B800360100140059 00190001DAC00A00 1EB80001006D002D
 04C0: 00D6040002B60C00 B8670001009B3100 04B500020DED00B8 D900010066350004
-04E0: 006903260E007BB8 00B6010039590004 0002DB0F009EB800 010D0001801D0010
-0500: 00000900000743B8 74626C40D1000200 005B3E00078A260B 01003498D00D7300
-0520: 016C000004009619 000126360D00D00D 4700010000630180 0800060A000A4363
-0540: 6F586C4C695040B3 000200B70400B402 260A0021180E7300 0001DA000004AC00
+04E0: 006903C00E007BB8 00B6010039590004 0002DB0F009EB800 010D0001801D0010
+0500: 00000900000743B8 74626C40D1000200 005B3E00078AC00B 01003498D00D7300
+0520: 016C000004009619 0001C0360D00D00D 4700010000630180 0800060A000A4363
+0540: 6F586C4C695040B3 000200B70400B402 C00A0021180E7300 0001DA000004AC00
 0560: 040002650B000018 CF0001C600018004 C8000B00000A8343 6D62537144220000
 0580: 0100006F3E00AD07 090162342A0E7300 3201000001806604 000C00F80F436307
 05A0: 536574506C462200 0100006F3E00FD07 62343C0E73003201 000001804604000D
@@ -1178,23 +1180,23 @@ Application Description: SQLWindows version 5.0 starter application
 05E0: 01800411000E0000 1043FE63CD535462 A300010000B73E00 7E073431660E7300
 0600: 0119000001802522 00000F00000A756F 4C54937C000004BD 0004B500020B8D00
 0620: 7E0E73D100010000 66040004006D020C 007B7E00B6010008 5800003E0007AB0D
-0640: 01349C7E0E00016C 00000C0096190001 26B60F007E470001 00006301800400C4
+0640: 01349C7E0E00016C 00000C0096190001 C0B60F007E470001 00006301800400C4
 0660: 1000000F431F4E61 6D686554622200F4 010000D604000236 0A00900E66730001
-0680: 0063018008008411 000010436F0F4279 4E61DF40E8000200 002D040002266509
+0680: 0063018008008411 000010436F0F4279 4E61DF40E8000200 002D040002C06509
 06A0: 0000A28C0E730001 0036000400046B00 020ADB00A2B30001 00310180040012F0
 06C0: 0000000F0F436F64 6536542200017A00 0004EB00021B00B4 0E73B30001003101
-06E0: 801D001302000006 4363625303480000 000200BD0004A100 01022608FD002780
-0700: 010000FF66040019 00690126090063FC 0E73003401000001 806608001400E007
-0720: 43636D6266400002 006F3E002907260A 010042340E0F7300 00B2010000045900
-0740: 040002DA260C009C 0E0F00010D000180 360018000015000C 43BE634627660000
-0760: 037A000004630001 020AF900004F8001 00FE00CD040019D2 0001260BC600200F
-0780: 7368000100001DB2 00001900B401260C 003D2000011A0000 01801D330016000F
+06E0: 801D001302000006 4363625303480000 000200BD0004A100 0102C008FD002780
+0700: 010000FF66040019 006901C0090063FC 0E73003401000001 806608001400E007
+0720: 43636D6266400002 006F3E002907C00A 010042340E0F7300 00B2010000045900
+0740: 040002DAC00C009C 0E0F00010D000180 360018000015000C 43BE634627660000
+0760: 037A000004630001 020AF900004F8001 00FE00CD040019D2 0001C00BC600200F
+0780: 7368000100001DB2 00001900B401C00C 003D2000011A0000 01801D330016000F
 07A0: FF0F54616248A200 0002000037040001 B6020A00FFE48001 0000DF042C001900
-07C0: 01266D0B00328C0F 73000100C6000180 1D08001700000843 6D006C4D696D6572
-07E0: 4000D90002005B04 0002DA26060018FE 0F730001006D0004 009619000126B607
+07C0: 01C06D0B00328C0F 73000100C6000180 1D08001700000843 6D006C4D696D6572
+07E0: 4000D90002005B04 0002DAC0060018FE 0F730001006D0004 0096190001C0B607
 0800: 00FE470001000063 0180250084180000 0C636C0453714861 6E646CC8657C0000
 0820: 04DE0004DA000206 8600281073006800 01000004B3000400 B60207003D280001
-0840: 9B000800AC000400 026D080028CF0001 26000C0000194B00 012609DB0028A300
+0840: 9B000800AC000400 026D080028CF0001 26000C0000194B00 01C009DB0028A300
 0860: 01000001
 .enddata
 			! Functional Class: CSingleConnectionSql
@@ -1359,7 +1361,7 @@ Application Description: SQLWindows version 5.0 starter application
 							! Set sGroupno = df3
 							Set bLoginok = TRUE
 							! Set bChoiceUpdate = TRUE
-							If nCodeTmima != 1 and nCodeTmima != 2 and nCodeTmima != 3 and nCodeTmima != 4 and nCodeTmima != 5 and nCodeTmima != 6 and nCodeTmima != 7 and nCodeTmima != 8 and nCodeTmima != 9
+							If nCodeTmima != 1 and nCodeTmima != 2 and nCodeTmima != 3 and nCodeTmima != 4 and nCodeTmima != 5 and nCodeTmima != 6 and nCodeTmima != 7 and nCodeTmima != 8 and nCodeTmima != 9 and nCodeTmima !=10
 								Set nLen = SalStrLength( sGroupno)
 								Loop
 									If nLen < 2
@@ -1579,7 +1581,7 @@ Application Description: SQLWindows version 5.0 starter application
 							! Set sGroupno = df3
 							Set bLoginok = TRUE
 							! Set bChoiceUpdate = TRUE
-							If nCodeTmima != 1 and nCodeTmima != 2 and nCodeTmima != 3 and nCodeTmima != 4 and nCodeTmima != 5 and nCodeTmima != 6 and nCodeTmima != 7 and nCodeTmima != 8 and nCodeTmima != 9
+							If nCodeTmima != 1 and nCodeTmima != 2 and nCodeTmima != 3 and nCodeTmima != 4 and nCodeTmima != 5 and nCodeTmima != 6 and nCodeTmima != 7 and nCodeTmima != 8 and nCodeTmima != 9 and nCodeTmima != 10
 								Set nLen = SalStrLength( sGroupno)
 								Loop
 									If nLen < 2
@@ -1931,7 +1933,18 @@ Application Description: SQLWindows version 5.0 starter application
 							Call SalModalDialog(dlgUniversity, hWndForm, 1,'Στοιχεία Ιδρύματος',0 )
 						Menu Item Name:
 					Menu Separator
-					Menu Item: 2.2 &Τμήμα
+					Menu Item: 2.2 &Κατεύθυνση
+						Resource Id: 28291
+						Keyboard Accelerator: (none)
+						Status Text:
+						Menu Settings
+							Enabled when: bDoctor
+							Checked when:
+						Menu Actions
+							Call SalModalDialog(dlgKatef, hWndForm, 'Στοιχεία Κατεύθυνσης')
+						Menu Item Name:
+					Menu Separator
+					Menu Item: 2.3 &Τμήμα
 						Resource Id: 11898
 						Keyboard Accelerator: (none)
 						Status Text:
@@ -1942,7 +1955,18 @@ Application Description: SQLWindows version 5.0 starter application
 							Call SalCreateWindow( frmTmima, hWndForm )
 						Menu Item Name:
 					Menu Separator
-					Menu Item: 2.3 Μέλη &ΔΕΠ
+					Menu Item: 2.4 &Πρόγραμμα
+						Resource Id: 19240
+						Keyboard Accelerator: (none)
+						Status Text:
+						Menu Settings
+							Enabled when: bDoctor
+							Checked when:
+						Menu Actions
+							Call SalModalDialog(dlgProg, hWndForm, 'Στοιχεία Προγράμματος')
+						Menu Item Name:
+					Menu Separator
+					Menu Item: 2.5 Μέλη &ΔΕΠ
 						Resource Id: 60648
 						Keyboard Accelerator: (none)
 						Status Text:
@@ -5330,7 +5354,7 @@ Application Description: SQLWindows version 5.0 starter application
 								 from metkartl  
 								 into  :nGradeVaMau, :nApalag, :nPassFail,:sEpEpil,:nAkMau 
 								 where progcode = :sProgCode and mitroo = '"||sMitroo||"' and courcode = :nCourCode 
-								       and (typos is null or  typos != 'PR')  and (passfail = 1 or passfail is null)
+								       and (typos is null or  typos != 'PR') 
 								 order by 3desc, 2 desc,1 desc,4 desc"
 						Call SqlImmediate( sSelect )
 						Call SqlClearImmediate()
@@ -7679,7 +7703,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Top: 0.083"
 				Width:  10.513"
 				Width Editable? Yes
-				Height: 6.26"
+				Height: 8.125"
 				Height Editable? Yes
 			Form Size
 				Width:  Default
@@ -12348,22 +12372,23 @@ Application Description: SQLWindows version 5.0 starter application
 					Message Actions
 						On SAM_Click
 							! !
-							If not SalIsNull( dfStf  )
+							Call SalSendMsg( hWndForm, PAM_SAVE, 0, 0 )
+							! If not SalIsNull( dfStf  )
 								If SalStrLength ( dfStf ) < 11
 									If SalStrIsValidNumber ( dfStf )
 										Call SalSendMsg( hWndForm, PAM_SAVE, 0, 0 )
 										Set dfStatusFoit = StatusFoit (colStudProgH,dfStf,nWorkTmima)
-									Else
+									Else 
 										Call ErrorMessageOk( 'Παρακαλώ διορθώστε τον κωδικό του φοιτητή ! ', '', 1 )
 										Call SalDisableWindow(pbSave)
 										Call SalEnableWindow(dfStf)
 										Call SalSetFocus(dfStf)
-								Else
+								Else 
 									Call ErrorMessageOk( 'Παρακαλώ διορθώστε τον κωδικό του φοιτητή ! ', '', 1 )
 									Call SalDisableWindow(pbSave)
 									Call SalEnableWindow(dfStf)
 									Call SalSetFocus(dfStf)
-							Else
+							! Else
 								! Call SalSendMsg( hWndForm, PAM_SAVE, 0, 0 )
 				Pushbutton: pbPrint
 .data INHERITPROPS
@@ -12541,7 +12566,7 @@ Application Description: SQLWindows version 5.0 starter application
 0080: 4E444F574E414D45 0001000000434F4C 4E414D450007004D 4954524F4F00004D
 00A0: 455353414745000F 00CCE7F4F1FEEF20 D6EFE9F4E7F4DE00 0052454C5441424E
 00C0: 414D450001000000 434F4C53495A4500 0500382C30300000 5052494D41525900
-00E0: 0200310000524551 5549524544000200 3000000000000000 0000000000000000
+00E0: 0200300000524551 5549524544000200 3000000000000000 0000000000000000
 0100: 0000000000000000 0000000000000000 000000
 .enddata
 .data INHERITPROPS
@@ -12553,7 +12578,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Property Template:
 				Class DLL Name:
 				Data
-					Maximum Data Length: 10
+					Maximum Data Length: 6
 					Data Type: Class Default
 					Editable? Class Default
 				Display Settings
@@ -12573,7 +12598,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Font Size: 8
 					Font Enhancement: Bold
 					Text Color: Dark Blue
-					Background Color: White
+					Background Color: 3D Face Color
 					Input Mask: Class Default
 				Message Actions
 					On SAM_Validate
@@ -12645,7 +12670,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Visible? Yes
 					Border? Yes
 					Justify: Left
-					Format: Uppercase
+					Format: Class Default
 					Country: Default
 					Font Name: Calibri Light
 					Font Size: 8
@@ -12710,7 +12735,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Visible? Yes
 					Border? Yes
 					Justify: Left
-					Format: Uppercase
+					Format: Class Default
 					Country: Default
 					Font Name: Calibri Light
 					Font Size: 8
@@ -12776,7 +12801,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Visible? Yes
 					Border? Yes
 					Justify: Left
-					Format: Uppercase
+					Format: Class Default
 					Country: Default
 					Font Name: Calibri Light
 					Font Size: 8
@@ -12842,7 +12867,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Visible? Yes
 					Border? Yes
 					Justify: Left
-					Format: Uppercase
+					Format: Class Default
 					Country: Default
 					Font Name: Calibri Light
 					Font Size: 8
@@ -13547,7 +13572,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Visible? Yes
 					Border? Yes
 					Justify: Left
-					Format: Uppercase
+					Format: Class Default
 					Country: Default
 					Font Name: Calibri Light
 					Font Size: 8
@@ -13612,7 +13637,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Visible? Yes
 					Border? Yes
 					Justify: Left
-					Format: Uppercase
+					Format: Class Default
 					Country: Default
 					Font Name: Calibri Light
 					Font Size: 8
@@ -14377,7 +14402,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Top: 2.906"
 					Width:  10.0"
 					Width Editable? Yes
-					Height: 1.333"
+					Height: 1.833"
 					Height Editable? Yes
 				Visible? Yes
 				Font Name: Calibri
@@ -14401,7 +14426,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Top: 3.156"
 						Width:  9.8"
 						Width Editable? Yes
-						Height: 0.95"
+						Height: 1.5"
 						Height Editable? Yes
 					Visible? Yes
 					Font Name: Calibri
@@ -14416,22 +14441,120 @@ Application Description: SQLWindows version 5.0 starter application
 					Maximum Rows in Memory: 1000
 					Discardable? Yes
 				Contents
+					Column: colStudTmimaProg
+.data CLASSPROPSSIZE
+0000: D700
+.enddata
+.data CLASSPROPS
+0000: 434F44454F4E4C59 0001000000505249 4D41525900010000 0057484552450013
+0020: 006F726465722062 7920746D696D6163 6F64650000524546 5445585400070054
+0040: 49544C4F53000052 45465441424E414D 450009004D455454 4D494D4100005441
+0060: 424E414D45000A00 4D4553545550524F 4700004F52444552 4259000100000043
+0080: 4F4C4E414D45000A 00544D494D41434F 4445000052454643 4F4C000A00544D49
+00A0: 4D41434F44450000 5245465445585432 00010000004D4553 5341474500010000
+00C0: 0000000000000000 0000000000000000 00000000000000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+						Class Child Ref Key: 0
+						Class ChildKey: 0
+						Class: CcolCmbSqlSetTbl
+						Property Template:
+						Class DLL Name:
+						Title:
+						Visible? Class Default
+						Editable? Class Default
+						Maximum Data Length: Class Default
+						Data Type: Class Default
+						Justify: Class Default
+						Width:  Class Default
+						Width Editable? Class Default
+						Format: Class Default
+						Country: Class Default
+						Input Mask: Class Default
+						Cell Options
+							Cell Type? Class Default
+							Multiline Cell? Class Default
+							Cell DropDownList
+								Sorted? No
+								Vertical Scroll? Class Default
+								Auto Drop Down? Class Default
+								Allow Text Editing? Class Default
+							Cell CheckBox
+								Check Value:
+								Uncheck Value:
+								Ignore Case? Class Default
+						List Values
+						Message Actions
+							On SAM_Validate
+								!
+								Set colStudTmimaProgH = saValues[ SalListQuerySelection( colStudTmimaProg ) ]
+								Set colStudProg.sWhere = ' where metprogram.tmimacode  = :colStudTmimaProgH'
+								Call SalListClear(colStudProg)
+								Call colStudProg.PopulateCB()
+								Set colStudProgH = STRING_Null
+								Set colStudProg = STRING_Null
+								Return VALIDATE_Ok
+					Column: colStudTmimaProgH
+.data CLASSPROPSSIZE
+0000: 8700
+.enddata
+.data CLASSPROPS
+0000: 56495349424C4500 010000004D455353 4147450001000000 434F4C4E414D4547
+0020: 520001000000434F 4C4E414D45000A00 544D494D41434F44 4500005441424E41
+0040: 4D45000B004D4554 53545550524F4700 0052454C5441424E 414D450001000000
+0060: 5052494D41525900 020031000052454C 4F50000100000000 0000000000000000
+0080: 00000000000000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+						Class Child Ref Key: 0
+						Class ChildKey: 0
+						Class: CcolSql
+						Property Template:
+						Class DLL Name:
+						Title:
+						Visible? No
+						Editable? Class Default
+						Maximum Data Length: Class Default
+						Data Type: Class Default
+						Justify: Class Default
+						Width:  Class Default
+						Width Editable? Class Default
+						Format: Class Default
+						Country: Class Default
+						Input Mask: Class Default
+						Cell Options
+							Cell Type? Class Default
+							Multiline Cell? Class Default
+							Cell DropDownList
+								Sorted? Class Default
+								Vertical Scroll? Class Default
+								Auto Drop Down? Class Default
+								Allow Text Editing? Class Default
+							Cell CheckBox
+								Check Value:
+								Uncheck Value:
+								Ignore Case? Class Default
+						List Values
+						Message Actions
 					Column: colStudProg
 .data INHERITPROPS
 0000: 0100
 .enddata
 .data CLASSPROPS
-0000: 434F44454F4E4C59 0001000000505249 4D41525900040059 4553000052454654
-0020: 4558543200010000 00524546434F4C00 090050524F47434F 44450000434F4C4E
-0040: 414D450009005052 4F47434F44450000 5441424E414D4500 0B004D4554535455
-0060: 50524F4700005245 465441424E414D45 000B004D45545052 4F4752414D000052
-0080: 4546544558540007 005449544C4F5300 005748455245001E 0077686572652074
-00A0: 6D696D61636F6465 203D203A6E436F64 65546D696D610000 4D45535341474500
-00C0: 0100000044495354 494E435400020030 0000000000000000 0000000000000000
-00E0: 0000000000000000
+0000: 4F52444552425900 0100000044495354 494E435400020030 00004D4553534147
+0020: 4500010000005748 4552450001000000 5245465445585400 07005449544C4F53
+0040: 0000524546544142 4E414D45000B004D 455450524F475241 4D00005441424E41
+0060: 4D45000B004D4554 53545550524F4700 00434F4C4E414D45 00090050524F4743
+0080: 4F44450000524546 434F4C0009005052 4F47434F44450000 5245465445585432
+00A0: 0001000000505249 4D41525900040059 45530000434F4445 4F4E4C5900010000
+00C0: 0000000000000000 0000000000000000 0000000000000000 00
 .enddata
 .data CLASSPROPSSIZE
-0000: E800
+0000: D900
 .enddata
 						Class Child Ref Key: 0
 						Class ChildKey: 0
@@ -15960,7 +16083,7 @@ Application Description: SQLWindows version 5.0 starter application
 					On SAM_Create
 						!
 						Set sTabName = SalStrTrimX( 'METSTUPROG')
-						Set sWhereClauseTbl = ' MITROO = :frmEgrafi.dfStf and METPROGRAM.TMIMACODE = :nCodeTmima  ORDER BY H_EGR DESC'
+						Set sWhereClauseTbl = ' MITROO = :frmEgrafi.dfStf AND METSTUPROG.TMIMACODE = METPROGRAM.TMIMACODE ORDER BY H_EGR DESC'
 						Set sTabColList = 'MITROO'
 						Set sTabValList = ':frmEgrafi.dfStf'
 						Set sWhereTbl = 'MITROO = :frmEgrafi.dfStf '
@@ -16070,13 +16193,14 @@ Application Description: SQLWindows version 5.0 starter application
 						Call colEkp_Dipl.SetSelectionCol(tblMetStudProg,colEkp_DiplCode)
 						Call colPm.SetSelectionCol(tblMetStudProg,colPmCode)
 						Call colPeriodDipl.SetSelectionCol(tblMetStudProg, colPeriodDiplCode)
+						Call colStudTmimaProg.SetSelectionCol(tblMetStudProg,colStudTmimaProgH)
 						!
 						!
 						! Call SalSendMsg( colHEgr, PAM_SETSELECTION, 0, 0 )
 					On PAM_SAVE
 						!
-						Call SalTblGetColumnText( tblMetStudProg, 2, sProgramEgg )
-						Call SalTblGetColumnText( tblMetStudProg, 1, sTitlosDipl )
+						Call SalTblGetColumnText( tblMetStudProg, 4, sProgramEgg )
+						Call SalTblGetColumnText( tblMetStudProg, 3, sTitlosDipl )
 						! Για τους ηλεκτρολόγους
 						If nCodeTmima = 3
 							If (SalTblAnyRows ( tblMetStudProg ,ROW_New | ROW_MarkDeleted , 0 ) OR bdlgEgr = TRUE) 
@@ -16115,7 +16239,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Title:
 				Window Location and Size
 					Left: 8.888"
-					Top: 4.281"
+					Top: 4.781"
 					Width:  Class Default
 					Width Editable? Yes
 					Height: Class Default
@@ -16420,7 +16544,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Title: Υπολ.Βαθ.Διπλώμ.
 				Window Location and Size
 					Left: 7.088"
-					Top: 4.281"
+					Top: 4.781"
 					Width:  1.5"
 					Width Editable? Class Default
 					Height: Class Default
@@ -16558,7 +16682,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Display Settings
 					Window Location and Size
 						Left: 0.388"
-						Top: 4.344"
+						Top: 4.844"
 						Width:  1.8"
 						Width Editable? Yes
 						Height: 0.25"
@@ -16599,10 +16723,10 @@ Application Description: SQLWindows version 5.0 starter application
 				Class DLL Name: QUIKPDLG.DLL
 				Window Location and Size
 					Left: 2.238"
-					Top: 4.323"
+					Top: 4.823"
 					Width:  1.35"
 					Width Editable? Yes
-					Height: 0.917"
+					Height: 0.781"
 					Height Editable? Yes
 				Visible? Yes
 				Editable? Yes
@@ -16635,10 +16759,10 @@ Application Description: SQLWindows version 5.0 starter application
 					Vertical Scroll? Yes
 					Window Location and Size
 						Left: 0.2"
-						Top: 4.667"
+						Top: 5.167"
 						Width:  9.788"
 						Width Editable? Yes
-						Height: 0.573"
+						Height: 1.49"
 						Height Editable? Yes
 					Visible? Yes
 					Font Name: Calibri Light
@@ -38319,7 +38443,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Visible? Class Default
 					Border? Class Default
 					Justify: Class Default
-					Format: Uppercase
+					Format: Class Default
 					Country: Class Default
 					Font Name: Calibri Light
 					Font Size: Class Default
@@ -38369,7 +38493,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Visible? Class Default
 					Border? Class Default
 					Justify: Class Default
-					Format: Uppercase
+					Format: Class Default
 					Country: Class Default
 					Font Name: Calibri Light
 					Font Size: Class Default
@@ -38415,7 +38539,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Visible? Class Default
 					Border? Class Default
 					Justify: Class Default
-					Format: Uppercase
+					Format: Class Default
 					Country: Class Default
 					Font Name: Calibri Light
 					Font Size: Class Default
@@ -40465,6 +40589,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Call SalListInsert ( cmbGramSxoli, 7, 'ΜΗΧΑΝΙΚΩΝ ΜΕΤΑΛΛΕΙΩΝ  ΜΕΤΑΛΛΟΥΡΓΩΝ' )
 						Call SalListInsert ( cmbGramSxoli, 8, 'ΝΑΥΠΗΓΩΝ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ' )
 						Call SalListInsert ( cmbGramSxoli, 9, 'ΣΕΜΦΕ' )
+						Call SalListInsert ( cmbGramSxoli, 10, 'Κ.Ε.ΔΙ.ΒΙ.Μ.' )
 						Call SalListSetSelect ( cmbGramSxoli, 0 )
 						! Call SalDisableWindow(cmbGramSxoli)
 					On SAM_Validate
@@ -40498,6 +40623,9 @@ Application Description: SQLWindows version 5.0 starter application
 						Else If SalListQuerySelection ( cmbGramSxoli ) = 9
 							Set nCodeTmima = 9
 							Set BankName = "base09"
+						Else If SalListQuerySelection ( cmbGramSxoli ) = 10
+							Set nCodeTmima = 10
+							Set BankName = "kedibim"
 						Set dfK_tmUser = nCodeTmima
 			! ! ! USERS
 			Background Text: Γραμματεία :
@@ -40938,7 +41066,7 @@ Application Description: SQLWindows version 5.0 starter application
 							! Set sGroupno = df3
 							Set bLoginok = TRUE
 							! Set bChoiceUpdate = TRUE
-							If nCodeTmima != 1 and nCodeTmima != 2 and nCodeTmima != 3 and nCodeTmima != 4 and nCodeTmima != 5 and nCodeTmima != 6 and nCodeTmima != 7 and nCodeTmima != 8 and nCodeTmima != 9
+							If nCodeTmima != 1 and nCodeTmima != 2 and nCodeTmima != 3 and nCodeTmima != 4 and nCodeTmima != 5 and nCodeTmima != 6 and nCodeTmima != 7 and nCodeTmima != 8 and nCodeTmima != 9 and nCodeTmima != 10
 								Set nLen = SalStrLength( sGroupno)
 								Loop
 									If nLen < 2
@@ -41272,7 +41400,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Set sTabName = 'USERSTAB'
 				Set dfUserMain ='sysadm'
 				Set dfPasswMain='sysadm'
-				Set dfBankName='base0'
+				Set dfBankName='kedibim'
 				Call SalSetFocus( dfBankName )
 				Call SalSendMsg( dfBankName, WM_KEYDOWN, END, 0 )
 				! Call SalSendMsg( Window_Handle, Number, Number, Number )
@@ -42933,7 +43061,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Background Color: Class Default
 					Input Mask: Class Default
 				Message Actions
-			Background Text: Πρόεδρος
+			Background Text: Τακτικό Μέλος
 				Resource Id: 11891
 				Class Child Ref Key: 0
 				Class ChildKey: 0
@@ -42941,9 +43069,9 @@ Application Description: SQLWindows version 5.0 starter application
 				Window Location and Size
 					Left: 0.088"
 					Top: 1.01"
-					Width:  0.65"
+					Width:  0.7"
 					Width Editable? Class Default
-					Height: Class Default
+					Height: 0.313"
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
@@ -42957,19 +43085,19 @@ Application Description: SQLWindows version 5.0 starter application
 0000: 0100
 .enddata
 .data CLASSPROPSSIZE
-0000: 2E01
+0000: 3A01
 .enddata
 .data CLASSPROPS
-0000: 53454C4259434F44 4500010000004D45 5353414745001D00 CAF9E4E9EAFCF220
-0020: EAE1E920C5F0FEED F5ECEF20D0F1EFDD E4F1EFF50000444C 475449544C450008
-0040: 00C5D0C9CBCFC3C7 000052454C544558 544E414D45320006 004F4E4F4D410000
-0060: 52454C434F44454E 414D45000700414D 5F4445500000434F 4C4E414D45000700
-0080: 414D5F50524F0000 5441424E414D4500 09004D4554544D49 4D41000052454C54
-00A0: 41424E414D450004 0044455000005245 4C544558544E414D 4531000500455056
-00C0: 4E00004445465641 4C55450001000000 5052494D41525900 0100000052454C4F
-00E0: 5000010000005348 4F574D4F44450002 0032000041444457 4845524500010000
-0100: 0053484F574D4F44 4552000200310000 0000000000000000 0000000000000000
-0120: 0000000000000000 000000000000
+0000: 53484F574D4F4445 5200020031000041 4444574845524500 0100000053484F57
+0020: 4D4F444500020032 000052454C4F5000 010000005052494D 4152590001000000
+0040: 44454656414C5545 000100000052454C 544558544E414D45 310005004550564E
+0060: 000052454C544142 4E414D4500040044 455000005441424E 414D450009004D45
+0080: 54544D494D410000 434F4C4E414D4500 0700414D5F50524F 000052454C434F44
+00A0: 454E414D45000700 414D5F4445500000 52454C544558544E 414D45320006004F
+00C0: 4E4F4D410000444C 475449544C450008 00C5D0C9CBCFC3C7 00004D4553534147
+00E0: 45001D00CAF9E4E9 EAFCF220EAE1E920 C5F0FEEDF5ECEF20 D0F1EFDDE4F1EFF5
+0100: 000053454C425943 4F44450001000000 5748455245000100 0000000000000000
+0120: 0000000000000000 0000000000000000 0000000000000000 0000
 .enddata
 				Class Child Ref Key: 0
 				Class ChildKey: 0
@@ -42982,16 +43110,16 @@ Application Description: SQLWindows version 5.0 starter application
 					Editable? Class Default
 				Display Settings
 					Window Location and Size
-						Left: 0.738"
+						Left: 0.888"
 						Top: 0.99"
-						Width:  2.45"
+						Width:  2.3"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
 					Visible? Class Default
 					Border? Class Default
 					Justify: Class Default
-					Format: Uppercase
+					Format: Class Default
 					Country: Class Default
 					Font Name: Calibri Light
 					Font Size: Class Default
@@ -43015,19 +43143,20 @@ Application Description: SQLWindows version 5.0 starter application
 							Set dfDepOnoma = SalStrMidX( sText,  nPos+1, nLen )
 			Data Field: dfDepOnoma
 .data CLASSPROPSSIZE
-0000: 3701
+0000: 4301
 .enddata
 .data CLASSPROPS
-0000: 53484F574D4F4445 5200020031000053 454C4259434F4445 0001000000414444
-0020: 5748455245000100 00005052494D4152 5900010000004445 4656414C55450001
-0040: 00000052454C5445 58544E414D453100 06004F4E4F4D4100 0052454C5441424E
-0060: 414D450004004445 5000005441424E41 4D450009004D4554 544D494D41000053
-0080: 4F55524345000700 284E6F6E65290000 4954454D00010000 00434F4C4E414D45
-00A0: 000700414D5F5052 4F000052454C434F 44454E414D450007 00414D5F44455000
-00C0: 0052454C54455854 4E414D4532000500 4550564E0000444C 475449544C450001
-00E0: 0000004D45535341 4745000F00BCEDEF ECE120D0F1EFDDE4 F1EFF5000052454C
-0100: 4F50000100000053 484F574D4F444500 0200320000000000 0000000000000000
-0120: 0000000000000000 0000000000000000 00000000000000
+0000: 5748455245000100 000053484F574D4F 4445520002003100 0053454C4259434F
+0020: 4445000100000041 4444574845524500 010000005052494D 4152590001000000
+0040: 44454656414C5545 000100000052454C 544558544E414D45 310006004F4E4F4D
+0060: 41000052454C5441 424E414D45000400 4445500000544142 4E414D450009004D
+0080: 4554544D494D4100 00534F5552434500 0700284E6F6E6529 00004954454D0001
+00A0: 000000434F4C4E41 4D45000700414D5F 50524F000052454C 434F44454E414D45
+00C0: 000700414D5F4445 50000052454C5445 58544E414D453200 05004550564E0000
+00E0: 444C475449544C45 00010000004D4553 53414745000F00BC EDEFECE120D0F1EF
+0100: DDE4F1EFF5000052 454C4F5000010000 0053484F574D4F44 4500020032000000
+0120: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+0140: 000000
 .enddata
 .data INHERITPROPS
 0000: 0100
@@ -43052,7 +43181,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Visible? Class Default
 					Border? Class Default
 					Justify: Class Default
-					Format: Uppercase
+					Format: Class Default
 					Country: Class Default
 					Font Name: Calibri
 					Font Size: Class Default
@@ -43061,7 +43190,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Background Color: Class Default
 					Input Mask: Class Default
 				Message Actions
-			Background Text: Γραμματ.
+			Background Text: Γραμματέας
 				Resource Id: 11895
 				Class Child Ref Key: 0
 				Class ChildKey: 0
@@ -43110,16 +43239,16 @@ Application Description: SQLWindows version 5.0 starter application
 					Editable? Class Default
 				Display Settings
 					Window Location and Size
-						Left: 0.738"
+						Left: 0.888"
 						Top: 1.281"
-						Width:  2.45"
+						Width:  2.3"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
 					Visible? Class Default
 					Border? Class Default
 					Justify: Class Default
-					Format: Uppercase
+					Format: Class Default
 					Country: Class Default
 					Font Name: Calibri Light
 					Font Size: Class Default
@@ -43180,7 +43309,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Visible? Class Default
 					Border? Class Default
 					Justify: Class Default
-					Format: Uppercase
+					Format: Class Default
 					Country: Class Default
 					Font Name: Calibri Light
 					Font Size: Class Default
@@ -43252,264 +43381,6 @@ Application Description: SQLWindows version 5.0 starter application
 					Font Name: Calibri Light
 					Font Size: Class Default
 					Font Enhancement: Class Default
-					Text Color: Class Default
-					Background Color: Class Default
-					Input Mask: Class Default
-				Message Actions
-			Background Text: Αντι
-					Πρόεδρος
-				Resource Id: 11894
-				Class Child Ref Key: 0
-				Class ChildKey: 0
-				Class: CbgText
-				Window Location and Size
-					Left: 4.938"
-					Top: 0.948"
-					Width:  0.65"
-					Width Editable? Class Default
-					Height: 0.292"
-					Height Editable? Class Default
-				Visible? Class Default
-				Justify: Class Default
-				Font Name: Calibri Light
-				Font Size: Class Default
-				Font Enhancement: Class Default
-				Text Color: Default
-				Background Color: Class Default
-			Data Field: dfAm_anpro
-.data INHERITPROPS
-0000: 0100
-.enddata
-.data CLASSPROPSSIZE
-0000: 3401
-.enddata
-.data CLASSPROPS
-0000: 53484F574D4F4445 5200020031000041 4444574845524500 0100000053454C42
-0020: 59434F4445000100 00004D4553534147 45002100CAF9E4E9 EAFCF220EAE1E920
-0040: C5F0FEEDF5ECEF20 C1ED2E20D0F1EFDD E4F1EFF50000444C 475449544C450008
-0060: 00C5D0C9CBCFC3C7 000052454C544558 544E414D45320006 004F4E4F4D410000
-0080: 52454C434F44454E 414D45000700414D 5F4445500000434F 4C4E414D45000900
-00A0: 414D5F414E50524F 00005441424E414D 450009004D455454 4D494D4100005245
-00C0: 4C5441424E414D45 0004004445500000 52454C544558544E 414D453100050045
-00E0: 50564E0000444546 56414C5545000100 00005052494D4152 5900010000005245
-0100: 4C4F500001000000 53484F574D4F4445 0002003200000000 0000000000000000
-0120: 0000000000000000 0000000000000000 00000000
-.enddata
-				Class Child Ref Key: 0
-				Class ChildKey: 0
-				Class: CdfLinkSql
-				Property Template:
-				Class DLL Name:
-				Data
-					Maximum Data Length: 30
-					Data Type: Class Default
-					Editable? Class Default
-				Display Settings
-					Window Location and Size
-						Left: 5.638"
-						Top: 0.99"
-						Width:  2.25"
-						Width Editable? Class Default
-						Height: Class Default
-						Height Editable? Class Default
-					Visible? Class Default
-					Border? Class Default
-					Justify: Class Default
-					Format: Uppercase
-					Country: Class Default
-					Font Name: Calibri Light
-					Font Size: Class Default
-					Font Enhancement: Class Default
-					Text Color: Class Default
-					Background Color: Class Default
-					Input Mask: Class Default
-				Message Actions
-					On SAM_Validate
-						!
-						If MyValue = ''
-							!
-							Set sSelCode = ''
-						Else
-							!
-							Call SelectItem()
-							Set sText = MyValue
-							Set nPos = SalStrScan( sText, ' ' )
-							Set nLen  = SalStrLength( sText )
-							Set MyValue = SalStrMidX( sText, 0, nPos )
-							Set dfDepOnomaEp = SalStrMidX( sText,  nPos+1, nLen )
-			Background Text: Αναπληρ.
-					Γραμματ.
-				Resource Id: 11892
-				Class Child Ref Key: 0
-				Class ChildKey: 0
-				Class: CbgText
-				Window Location and Size
-					Left: 4.938"
-					Top: 1.24"
-					Width:  0.6"
-					Width Editable? Class Default
-					Height: 0.292"
-					Height Editable? Class Default
-				Visible? Class Default
-				Justify: Class Default
-				Font Name: Calibri Light
-				Font Size: Class Default
-				Font Enhancement: Class Default
-				Text Color: Default
-				Background Color: Class Default
-			Data Field: dfanGraEp
-.data INHERITPROPS
-0000: 0100
-.enddata
-.data CLASSPROPSSIZE
-0000: 3801
-.enddata
-.data CLASSPROPS
-0000: 53454C4259434F44 4500010000004D45 5353414745002300 CAF9E4E9EAFCF220
-0020: EAE1E920C5F0FEED F5ECEF20C1ED2E20 C3F1E1ECECE1F4DD F9F20000444C4754
-0040: 49544C45000800C5 D0C9CBCFC3C70000 52454C544558544E 414D45320006004F
-0060: 4E4F4D4100005245 4C434F44454E414D 450007004B5F5950 414C0000434F4C4E
-0080: 414D45000A00414D 5F414E4752414D00 005441424E414D45 0009004D4554544D
-00A0: 494D41000052454C 5441424E414D4500 05005950414C0000 52454C544558544E
-00C0: 414D453100050045 50564E0000444546 56414C5545000100 00005052494D4152
-00E0: 5900010000005245 4C4F500001000000 53484F574D4F4445 0002003200004144
-0100: 4457484552450001 00000053484F574D 4F44455200020031 0000000000000000
-0120: 0000000000000000 0000000000000000 0000000000000000
-.enddata
-				Class Child Ref Key: 0
-				Class ChildKey: 0
-				Class: CdfLinkSql
-				Property Template:
-				Class DLL Name:
-				Data
-					Maximum Data Length: 30
-					Data Type: Class Default
-					Editable? Class Default
-				Display Settings
-					Window Location and Size
-						Left: 5.638"
-						Top: 1.281"
-						Width:  2.25"
-						Width Editable? Class Default
-						Height: Class Default
-						Height Editable? Class Default
-					Visible? Class Default
-					Border? Class Default
-					Justify: Class Default
-					Format: Uppercase
-					Country: Class Default
-					Font Name: Class Default
-					Font Size: Class Default
-					Font Enhancement: Class Default
-					Text Color: Class Default
-					Background Color: Class Default
-					Input Mask: Class Default
-				Message Actions
-					On SAM_Validate
-						!
-						If MyValue = ''
-							!
-							Set sSelCode = ''
-						Else
-							!
-							Call SelectItem()
-							Set sText = MyValue
-							Set nPos = SalStrScan( sText, ' ' )
-							Set nLen  = SalStrLength( sText )
-							Set MyValue = SalStrMidX( sText, 0, nPos )
-							Set dfanGraOnoma = SalStrMidX( sText,  nPos+1, nLen )
-			Data Field: dfDepOnomaEp
-.data CLASSPROPSSIZE
-0000: 3D01
-.enddata
-.data CLASSPROPS
-0000: 53484F574D4F4445 0002003200005245 4C4F500001000000 4D45535341474500
-0020: 1300BCEDEFECE120 C1ED2E20D0F1EFDD E4F1EFF50000444C 475449544C450001
-0040: 00000052454C5445 58544E414D453200 05004550564E0000 52454C434F44454E
-0060: 414D45000700414D 5F4445500000434F 4C4E414D45000900 414D5F414E50524F
-0080: 00004954454D0001 000000534F555243 45000700284E6F6E 652900005441424E
-00A0: 414D450009004D45 54544D494D410000 52454C5441424E41 4D45000400444550
-00C0: 000052454C544558 544E414D45310006 004F4E4F4D410000 44454656414C5545
-00E0: 0001000000505249 4D41525900010000 0041444457484552 4500010000005345
-0100: 4C4259434F444500 0100000053484F57 4D4F444552000200 3100000000000000
-0120: 0000000000000000 0000000000000000 0000000000000000 0000000000
-.enddata
-.data INHERITPROPS
-0000: 0100
-.enddata
-				Class Child Ref Key: 0
-				Class ChildKey: 0
-				Class: CdfLinkSql
-				Property Template:
-				Class DLL Name:
-				Data
-					Maximum Data Length: 25
-					Data Type: Class Default
-					Editable? Class Default
-				Display Settings
-					Window Location and Size
-						Left: 7.888"
-						Top: 0.99"
-						Width:  1.7"
-						Width Editable? Class Default
-						Height: Class Default
-						Height Editable? Class Default
-					Visible? Class Default
-					Border? Class Default
-					Justify: Class Default
-					Format: Uppercase
-					Country: Class Default
-					Font Name: Calibri
-					Font Size: Class Default
-					Font Enhancement: None
-					Text Color: Class Default
-					Background Color: Class Default
-					Input Mask: Class Default
-				Message Actions
-			Data Field: dfanGraOnoma
-.data INHERITPROPS
-0000: 0100
-.enddata
-.data CLASSPROPSSIZE
-0000: 2A01
-.enddata
-.data CLASSPROPS
-0000: 53454C4259434F44 4500010000004D45 5353414745001500 BCEDEFECE120C1ED
-0020: 2E20C3F1E1ECECE1 F4DDF9F20000444C 475449544C450008 00C5D0C9CBCFC3C7
-0040: 000052454C544558 544E414D45320005 004550564E000052 454C434F44454E41
-0060: 4D450007004B5F59 50414C0000434F4C 4E414D45000A0041 4D5F414E4752414D
-0080: 00005441424E414D 450009004D455454 4D494D4100005245 4C5441424E414D45
-00A0: 0005005950414C00 0052454C54455854 4E414D4531000600 4F4E4F4D41000044
-00C0: 454656414C554500 010000005052494D 4152590001000000 52454C4F50000100
-00E0: 000053484F574D4F 4445000200320000 4144445748455245 000100000053484F
-0100: 574D4F4445520002 0031000000000000 0000000000000000 0000000000000000
-0120: 0000000000000000 0000
-.enddata
-				Class Child Ref Key: 0
-				Class ChildKey: 0
-				Class: CdfLinkSql
-				Property Template:
-				Class DLL Name:
-				Data
-					Maximum Data Length: 25
-					Data Type: Class Default
-					Editable? Class Default
-				Display Settings
-					Window Location and Size
-						Left: 7.888"
-						Top: 1.281"
-						Width:  1.7"
-						Width Editable? Class Default
-						Height: Class Default
-						Height Editable? Class Default
-					Visible? Class Default
-					Border? Class Default
-					Justify: Class Default
-					Format: Uppercase
-					Country: Class Default
-					Font Name: Calibri
-					Font Size: Class Default
-					Font Enhancement: None
 					Text Color: Class Default
 					Background Color: Class Default
 					Input Mask: Class Default
@@ -45645,6 +45516,135 @@ Application Description: SQLWindows version 5.0 starter application
 				Font Enhancement: Class Default
 				Text Color: Default
 				Background Color: Class Default
+			Data Field: dfAm_anpro
+.data INHERITPROPS
+0000: 0100
+.enddata
+.data CLASSPROPSSIZE
+0000: 3C01
+.enddata
+.data CLASSPROPS
+0000: 53484F574D4F4445 5200020031000041 4444574845524500 0100000053484F57
+0020: 4D4F444500020032 000052454C4F5000 010000005052494D 4152590001000000
+0040: 44454656414C5545 000100000052454C 544558544E414D45 310005004550564E
+0060: 000052454C544142 4E414D4500040044 455000005441424E 414D450009004D45
+0080: 54544D494D410000 434F4C4E414D4500 0900414D5F414E50 524F000052454C43
+00A0: 4F44454E414D4500 0700414D5F444550 000052454C544558 544E414D45320006
+00C0: 004F4E4F4D410000 444C475449544C45 000800C5D0C9CBCF C3C700004D455353
+00E0: 414745001D00CAF9 E4E9EAFCF220EAE1 E920C5F0FEEDF5EC EF20D0F1EFDDE4F1
+0100: EFF5000053454C42 59434F4445000100 0000574845524500 0100000000000000
+0120: 0000000000000000 0000000000000000 0000000000000000 00000000
+.enddata
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class: CdfLinkSql
+				Property Template:
+				Class DLL Name:
+				Data
+					Maximum Data Length: 30
+					Data Type: Class Default
+					Editable? Class Default
+				Display Settings
+					Window Location and Size
+						Left: 5.688"
+						Top: 0.99"
+						Width:  2.1"
+						Width Editable? Class Default
+						Height: Class Default
+						Height Editable? Class Default
+					Visible? Class Default
+					Border? Class Default
+					Justify: Class Default
+					Format: Class Default
+					Country: Class Default
+					Font Name: Calibri Light
+					Font Size: Class Default
+					Font Enhancement: Class Default
+					Text Color: Class Default
+					Background Color: Class Default
+					Input Mask: Class Default
+				Message Actions
+					On SAM_Validate
+						!
+						If MyValue = ''
+							!
+							Set sSelCode = ''
+						Else
+							!
+							Call SelectItem()
+							Set sText = MyValue
+							Set nPos = SalStrScan( sText, ' ' )
+							Set nLen  = SalStrLength( sText )
+							Set MyValue = SalStrMidX( sText, 0, nPos )
+							Set dfAnDepOnoma = SalStrMidX( sText,  nPos+1, nLen )
+			Data Field: dfAnDepOnoma
+.data CLASSPROPSSIZE
+0000: 4501
+.enddata
+.data CLASSPROPS
+0000: 53484F574D4F4445 0002003200005245 4C4F500001000000 4D45535341474500
+0020: 0F00BCEDEFECE120 D0F1EFDDE4F1EFF5 0000444C47544954 4C45000100000052
+0040: 454C544558544E41 4D45320005004550 564E000052454C43 4F44454E414D4500
+0060: 0700414D5F444550 0000434F4C4E414D 45000900414D5F41 4E50524F00004954
+0080: 454D000100000053 4F55524345000700 284E6F6E65290000 5441424E414D4500
+00A0: 09004D4554544D49 4D41000052454C54 41424E414D450004 0044455000005245
+00C0: 4C544558544E414D 45310006004F4E4F 4D41000044454656 414C554500010000
+00E0: 005052494D415259 0001000000414444 5748455245000100 000053454C425943
+0100: 4F44450001000000 53484F574D4F4445 5200020031000057 4845524500010000
+0120: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+0140: 0000000000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class: CdfLinkSql
+				Property Template:
+				Class DLL Name:
+				Data
+					Maximum Data Length: 25
+					Data Type: Class Default
+					Editable? Class Default
+				Display Settings
+					Window Location and Size
+						Left: 7.788"
+						Top: 0.99"
+						Width:  1.7"
+						Width Editable? Class Default
+						Height: Class Default
+						Height Editable? Class Default
+					Visible? Class Default
+					Border? Class Default
+					Justify: Class Default
+					Format: Class Default
+					Country: Class Default
+					Font Name: Calibri
+					Font Size: Class Default
+					Font Enhancement: None
+					Text Color: Class Default
+					Background Color: Class Default
+					Input Mask: Class Default
+				Message Actions
+			Background Text: Αναπλ/κό Μέλος
+				Resource Id: 51873
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class: CbgText
+				Window Location and Size
+					Left: 4.988"
+					Top: 1.01"
+					Width:  0.6"
+					Width Editable? Class Default
+					Height: 0.313"
+					Height Editable? Class Default
+				Visible? Class Default
+				Justify: Class Default
+				Font Name: Calibri Light
+				Font Size: Class Default
+				Font Enhancement: Class Default
+				Text Color: Default
+				Background Color: Class Default
 		Functions
 			Function: GetNamedMenu
 				Description:
@@ -45886,6 +45886,9 @@ Application Description: SQLWindows version 5.0 starter application
 				!
 				                                                                                                                                                                                                                                Return ReportFetchNext( nRepType )
 	Form Window: frmCourses
+.data INHERITPROPS
+0000: 0100
+.enddata
 		Class: clsFormSql
 		Property Template:
 		Class DLL Name:
@@ -46527,7 +46530,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Background Color: Class Default
 			Combo Box: cmbTmimaCour
 .data CLASSPROPSSIZE
-0000: E200
+0000: E100
 .enddata
 .data CLASSPROPS
 0000: 44495354494E4354 0002003000004D45 5353414745000100 0000574845524500
@@ -46535,9 +46538,9 @@ Application Description: SQLWindows version 5.0 starter application
 0040: 08004D4554554E49 5600005441424E41 4D45000A004D4554 434F555253450000
 0060: 534F555243450007 00284E6F6E652900 004954454D000100 0000434F4C4E414D
 0080: 45000900554E4956 434F44450000504C 434F4C000900554E 4956434F44450000
-00A0: 504C544558543200 010000005052494D 4152590004005945 530000434F44454F
-00C0: 4E4C590001000000 0000000000000000 0000000000000000 0000000000000000
-00E0: 0000
+00A0: 504C544558543200 010000005052494D 4152590003004E4F 0000434F44454F4E
+00C0: 4C59000100000000 0000000000000000 0000000000000000 0000000000000000
+00E0: 00
 .enddata
 .data INHERITPROPS
 0000: 0100
@@ -46586,6 +46589,11 @@ Application Description: SQLWindows version 5.0 starter application
 					! On SAM_Validate
 						!
 						                                                                                                                                                                                                                                Set dftmhmaYpag.sWhereClause =sWhereClause|| 'and METCOURSE.UNIVCODE =:nTmimaCour'
+					On SAM_Validate
+						Set sTmimaCour = saValues[ SalListQuerySelection( cmbTmimaCour ) ]
+						Set dfK_tmDid.sWhere = ' where mettmima.univcode = :sTmimaCour'
+						Call SalListClear( dfK_tmDid )
+						Call dfK_tmDid.PopulateCB()
 			Background Text: Κωδικός
 				Resource Id: 4234
 				Class Child Ref Key: 0
@@ -46707,7 +46715,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Visible? Class Default
 					Border? Class Default
 					Justify: Class Default
-					Format: Uppercase
+					Format: Class Default
 					Country: Class Default
 					Font Name: Calibri Light
 					Font Size: Class Default
@@ -48119,7 +48127,7 @@ Application Description: SQLWindows version 5.0 starter application
 .data CLASSPROPS
 0000: 4F52444552425900 0200300000494E53 454C454354000200 3000005649534942
 0020: 4C45000200300000 434F4C4E414D4547 5200010000005748 4552454954454D00
-0040: 0100000052454C4F 500002003D000050 52494D4152590002 003100005441424E
+0040: 0100000052454C4F 500002003D000050 52494D4152590002 003000005441424E
 0060: 414D45000A004D45 54434F5552534500 00534F5552434500 0700284E6F6E6529
 0080: 00004954454D0001 000000434F4C4E41 4D45000300414B00 004D455353414745
 00A0: 000900C1EA2E20B8 F4EFF2000057494E 444F574E414D4500 0100000052454C54
@@ -51314,17 +51322,17 @@ Application Description: SQLWindows version 5.0 starter application
 						Message Actions
 					Column: colEpDepEp
 .data CLASSPROPSSIZE
-0000: EE00
+0000: FC00
 .enddata
 .data CLASSPROPS
-0000: 434F44454F4E4C59 0001000000505249 4D41525900010000 0052454654455854
-0020: 3200010000005245 46434F4C00070041 4D5F444550000043 4F4C4E414D450008
-0040: 00444550434F4445 00005441424E414D 45000D004D455444 49504C4752414445
-0060: 0000524546544142 4E414D4500040044 4550000052454654 455854001D004550
-0080: 564E7C7C2720277C 7C4F4E4F4D417C7C 272020277C7C5041 5452000057484552
-00A0: 450019006F726465 7220627920657076 6E2C6F6E6F6D612C 7061747200004D45
-00C0: 5353414745000100 000044495354494E 4354000200300000 0000000000000000
-00E0: 0000000000000000 000000000000
+0000: 4F52444552425900 0100000044495354 494E435400020030 00004D4553534147
+0020: 4500010000005748 4552450019006F72 6465722062792065 70766E2C6F6E6F6D
+0040: 612C706174720000 5245465445585400 1D004550564E7C7C 2720277C7C4F4E4F
+0060: 4D417C7C27202027 7C7C504154520000 5245465441424E41 4D45000400444550
+0080: 00005441424E414D 45000D004D455444 49504C4752414445 0000434F4C4E414D
+00A0: 4500080044455043 4F44450000524546 434F4C000700414D 5F44455000005245
+00C0: 4654455854320001 0000005052494D41 5259000100000043 4F44454F4E4C5900
+00E0: 0100000000000000 0000000000000000 0000000000000000 00000000
 .enddata
 .data INHERITPROPS
 0000: 0100
@@ -63862,16 +63870,16 @@ Application Description: SQLWindows version 5.0 starter application
 					Editable? Class Default
 				Display Settings
 					Window Location and Size
-						Left: 1.688"
+						Left: 2.188"
 						Top: 1.698"
-						Width:  3.2"
+						Width:  2.7"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
 					Visible? Class Default
 					Border? Class Default
 					Justify: Class Default
-					Format: Uppercase
+					Format: Class Default
 					Country: Class Default
 					Font Name: Calibri
 					Font Size: Class Default
@@ -63970,16 +63978,16 @@ Application Description: SQLWindows version 5.0 starter application
 					Editable? Class Default
 				Display Settings
 					Window Location and Size
-						Left: 1.688"
+						Left: 2.188"
 						Top: 2.031"
-						Width:  3.2"
+						Width:  2.7"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
 					Visible? Class Default
 					Border? Class Default
 					Justify: Class Default
-					Format: Unformatted
+					Format: Class Default
 					Country: Class Default
 					Font Name: Calibri Light
 					Font Size: Class Default
@@ -64078,16 +64086,16 @@ Application Description: SQLWindows version 5.0 starter application
 					Editable? Class Default
 				Display Settings
 					Window Location and Size
-						Left: 1.688"
+						Left: 2.188"
 						Top: 2.365"
-						Width:  3.2"
+						Width:  2.7"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
 					Visible? Class Default
 					Border? Class Default
 					Justify: Class Default
-					Format: Unformatted
+					Format: Class Default
 					Country: Class Default
 					Font Name: Calibri Light
 					Font Size: Class Default
@@ -64187,16 +64195,16 @@ Application Description: SQLWindows version 5.0 starter application
 					Editable? Class Default
 				Display Settings
 					Window Location and Size
-						Left: 1.688"
+						Left: 2.188"
 						Top: 2.698"
-						Width:  3.2"
+						Width:  2.7"
 						Width Editable? Class Default
 						Height: Class Default
 						Height Editable? Class Default
 					Visible? Class Default
 					Border? Class Default
 					Justify: Class Default
-					Format: Unformatted
+					Format: Class Default
 					Country: Class Default
 					Font Name: Calibri Light
 					Font Size: Class Default
@@ -64304,7 +64312,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Font Enhancement: Class Default
 				Text Color: Default
 				Background Color: Class Default
-			Background Text: Αντιπρύτανης
+			Background Text: Πρόεδρος
 				Resource Id: 29930
 				Class Child Ref Key: 0
 				Class ChildKey: 0
@@ -64323,7 +64331,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Font Enhancement: Class Default
 				Text Color: Default
 				Background Color: Class Default
-			Background Text: Αντιπρύτανης
+			Background Text: Διευθυντής Επιμόρφωσης και Δια Βίου Μάθησης
 				Resource Id: 29931
 				Class Child Ref Key: 0
 				Class ChildKey: 0
@@ -64331,9 +64339,9 @@ Application Description: SQLWindows version 5.0 starter application
 				Window Location and Size
 					Left: 0.488"
 					Top: 2.406"
-					Width:  1.1"
+					Width:  1.6"
 					Width Editable? Class Default
-					Height: Class Default
+					Height: 0.333"
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Class Default
@@ -64439,7 +64447,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Font Enhancement: Class Default
 				Text Color: Default
 				Background Color: Class Default
-			Group Box: Πρυτανεία
+			Group Box: Κ.Ε.ΔΙ.ΒΙ.Μ
 				Resource Id: 29937
 				Class Child Ref Key: 0
 				Class ChildKey: 0
@@ -64449,7 +64457,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Top: 1.448"
 					Width:  7.0"
 					Width Editable? Class Default
-					Height: 1.625"
+					Height: 1.792"
 					Height Editable? Class Default
 				Visible? Class Default
 				Font Name: Calibri
@@ -65399,11 +65407,11 @@ Application Description: SQLWindows version 5.0 starter application
 				Message Actions
 					On SAM_Create
 						! για τις περιοχές θα πρέπει να εχει επιλεγει ο τομέας!
-						Set sTabName = 'METTOMEIS'
-						Set sWhereClauseTbl = 'TMIMACODE = :frmTmima.dfkTmhma '
-						Set sTabColList = ' TMIMACODE '
-						Set sTabValList = ':frmTmima.dfkTmhma'
-						Set sWhereTbl = 'TMIMACODE = :frmTmima.dfkTmhma'
+						! Set sTabName = 'METTOMEIS'
+						! Set sWhereClauseTbl = 'TMIMACODE = :frmTmima.dfkTmhma '
+						! Set sTabColList = ' TMIMACODE '
+						! Set sTabValList = ':frmTmima.dfkTmhma'
+						! Set sWhereTbl = 'TMIMACODE = :frmTmima.dfkTmhma'
 			Pushbutton: pbSaveTmima
 				Class Child Ref Key: 0
 				Class ChildKey: 0
@@ -65453,117 +65461,6 @@ Application Description: SQLWindows version 5.0 starter application
 				Font Enhancement: Bold
 				Text Color: Dark Blue
 				Background Color: Default
-			Background Text: Τμήμα
-				Resource Id: 35694
-				Class Child Ref Key: 0
-				Class ChildKey: 0
-				Class: CbgText
-				Window Location and Size
-					Left: 0.238"
-					Top: 0.135"
-					Width:  0.45"
-					Width Editable? Class Default
-					Height: 0.208"
-					Height Editable? Class Default
-				Visible? Class Default
-				Justify: Left
-				Font Name: Calibri
-				Font Size: 8
-				Font Enhancement: None
-				Text Color: Class Default
-				Background Color: Default
-			Data Field: dfTmimaCode
-.data INHERITPROPS
-0000: 0100
-.enddata
-.data CLASSPROPSSIZE
-0000: F800
-.enddata
-.data CLASSPROPS
-0000: 4F52444552425900 0200300000494E53 454C454354000200 3000005748455245
-0020: 4954454D00010000 0056495349424C45 000200300000434F 4C4E414D45475200
-0040: 010000004D455353 414745001100CAF9 E4E9EAFCF220D4EC DEECE1F4EFF20000
-0060: 434F4C4E414D4500 0A00544D494D4143 4F44450000544142 4E414D450009004D
-0080: 4554544D494D4100 005052494D415259 0002003000005245 4C4F500001000000
-00A0: 52454C5441424E41 4D45000100000057 494E444F574E414D 450001000000434F
-00C0: 4C53495A45000500 302C303000005245 5155495245440002 0030000000000000
-00E0: 0000000000000000 0000000000000000 0000000000000000
-.enddata
-				Class Child Ref Key: 0
-				Class ChildKey: 0
-				Class: dfSql
-				Property Template:
-				Class DLL Name:
-				Data
-					Maximum Data Length: 4
-					Data Type: Number
-					Editable? No
-				Display Settings
-					Window Location and Size
-						Left: 0.738"
-						Top: 0.115"
-						Width:  1.2"
-						Width Editable? Class Default
-						Height: 0.25"
-						Height Editable? Class Default
-					Visible? Yes
-					Border? Class Default
-					Justify: Left
-					Format: Class Default
-					Country: Class Default
-					Font Name: Calibri
-					Font Size: 8
-					Font Enhancement: None
-					Text Color: Black
-					Background Color: Class Default
-					Input Mask: Class Default
-				Message Actions
-			Data Field: dfTmimaName
-.data INHERITPROPS
-0000: 0100
-.enddata
-.data CLASSPROPSSIZE
-0000: E500
-.enddata
-.data CLASSPROPS
-0000: 4F52444552425900 0200300000494E53 454C454354000200 3000005748455245
-0020: 4954454D00010000 0056495349424C45 000200300000434F 4C4E414D45475200
-0040: 010000004D455353 4147450001000000 434F4C4E414D4500 07005449544C4F53
-0060: 00005441424E414D 450009004D455454 4D494D4100005052 494D415259000200
-0080: 30000052454C4F50 000100000052454C 5441424E414D4500 0100000057494E44
-00A0: 4F574E414D450001 000000434F4C5349 5A45000500302C30 3000005245515549
-00C0: 5245440002003000 0000000000000000 0000000000000000 0000000000000000
-00E0: 0000000000
-.enddata
-				Class Child Ref Key: 0
-				Class ChildKey: 0
-				Class: dfSql
-				Property Template:
-				Class DLL Name:
-				Data
-					Maximum Data Length: 50
-					Data Type: Class Default
-					Editable? No
-				Display Settings
-					Window Location and Size
-						Left: 1.938"
-						Top: 0.115"
-						Width:  4.2"
-						Width Editable? Class Default
-						Height: 0.25"
-						Height Editable? Class Default
-					Visible? Yes
-					Border? Class Default
-					Justify: Left
-					Format: Class Default
-					Country: Class Default
-					Font Name: Calibri
-					Font Size: 8
-					Font Enhancement: None
-					Text Color: Black
-					Background Color: Class Default
-					Input Mask: Class Default
-				Message Actions
 		Functions
 			! Function: ColumnCheck
 				                                                                                                                                                                                                                                Description: Function η οποία ελέγχει αν υπάρχουν στήλες  κλειδιά κενές
@@ -65607,8 +65504,8 @@ Application Description: SQLWindows version 5.0 starter application
 		Message Actions
 			On SAM_CreateComplete
 				!
-				Set dfTmimaCode = dfkTmhma
-				Set dfTmimaName = dfTitlosTmhma
+				! Set dfTmimaCode = dfkTmhma
+				! Set dfTmimaName = dfTitlosTmhma
 				Call SalSendMsg( tblTomeis, PAM_POPULATE,0,0 )
 				Call SalWaitCursor( FALSE )
 				! Call tblTomeis.Populate()
@@ -66435,7 +66332,7 @@ Application Description: SQLWindows version 5.0 starter application
 			On SAM_Close
 				Call ChkSave(tblDiakop,hWndNULL,hWndNULL)
 				Call SalEndDialog( hWndForm, TRUE )
-	Dialog Box: dlgKatef
+	Dialog Box: dlgProg
 .data INHERITPROPS
 0000: 0100
 .enddata
@@ -66525,7 +66422,7 @@ Application Description: SQLWindows version 5.0 starter application
 							!
 							Call SalSendMsg( hWndForm, SAM_Close, 0, 0 )
 		Contents
-			Child Table: tblKatef
+			Child Table: tblProg
 				Class Child Ref Key: 0
 				Class ChildKey: 0
 				Class: CtblSql
@@ -66552,20 +66449,21 @@ Application Description: SQLWindows version 5.0 starter application
 					Maximum Rows in Memory: Class Default
 					Discardable? Class Default
 				Contents
-					Column: colKat
+					Column: colProg
 .data INHERITPROPS
 0000: 0100
 .enddata
 .data CLASSPROPSSIZE
-0000: A200
+0000: D900
 .enddata
 .data CLASSPROPS
-0000: 4F52444552425900 0200300000494E53 454C454354000200 3000005748455245
-0020: 4954454D00010000 004D455353414745 001400CAF9E4E9EA FCF220CAE1F4E5FD
-0040: E8F5EDF3E7F20000 434F4C4E414D4500 04004B4154000054 41424E414D450009
-0060: 004D45544B415445 4600005052494D41 5259000200310000 52454C4F50000100
-0080: 0000524551554952 4544000200300000 0000000000000000 0000000000000000
-00A0: 0000
+0000: 56495349424C4500 01000000434F4C4E 414D454752000100 00004F5244455242
+0020: 5900020030000049 4E53454C45435400 0200300000574845 52454954454D0001
+0040: 0000004D45535341 4745001500CAF9E4 E9EAFCF220D0F1EF E3F1DCECECE1F4EF
+0060: F20000434F4C4E41 4D4500090050524F 47434F4445000054 41424E414D45000B
+0080: 004D455450524F47 52414D0000505249 4D41525900020031 000052454C4F5000
+00A0: 0100000052455155 4952454400020030 000052454C544142 4E414D4500010000
+00C0: 0000000000000000 0000000000000000 0000000000000000 00
 .enddata
 						Class Child Ref Key: 0
 						Class ChildKey: 0
@@ -66575,7 +66473,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Title: Κωδικός
 						Visible? Class Default
 						Editable? Class Default
-						Maximum Data Length: 2
+						Maximum Data Length: Class Default
 						Data Type: Class Default
 						Justify: Class Default
 						Width:  0.8"
@@ -66597,20 +66495,21 @@ Application Description: SQLWindows version 5.0 starter application
 								Ignore Case? Class Default
 						List Values
 						Message Actions
-					Column: colTitlosKat
+					Column: colTitlosProg
 .data INHERITPROPS
 0000: 0100
 .enddata
 .data CLASSPROPSSIZE
-0000: A400
+0000: D600
 .enddata
 .data CLASSPROPS
-0000: 4F52444552425900 0200300000494E53 454C454354000200 3000005748455245
-0020: 4954454D00010000 004D455353414745 001300D4DFF4EBEF F220CAE1F4E5FDE8
-0040: F5EDF3E7F2000043 4F4C4E414D450007 005449544C4F5300 005441424E414D45
-0060: 0009004D45544B41 5445460000505249 4D41525900020030 000052454C4F5000
-0080: 0100000052455155 4952454400020030 0000000000000000 0000000000000000
-00A0: 00000000
+0000: 56495349424C4500 01000000434F4C4E 414D454752000100 00004F5244455242
+0020: 5900020030000049 4E53454C45435400 0200300000574845 52454954454D0001
+0040: 0000004D45535341 4745001400D4DFF4 EBEFF220D0F1EFE3 F1DCECECE1F4EFF2
+0060: 0000434F4C4E414D 450007005449544C 4F5300005441424E 414D45000B004D45
+0080: 5450524F4752414D 00005052494D4152 5900020030000052 454C4F5000010000
+00A0: 0052455155495245 4400020030000052 454C5441424E414D 4500010000000000
+00C0: 0000000000000000 0000000000000000 000000000000
 .enddata
 						Class Child Ref Key: 0
 						Class ChildKey: 0
@@ -66621,7 +66520,7 @@ Application Description: SQLWindows version 5.0 starter application
 						Visible? Class Default
 						Editable? Class Default
 						Maximum Data Length: 150
-						Data Type: Class Default
+						Data Type: String
 						Justify: Class Default
 						Width:  3.988"
 						Width Editable? Class Default
@@ -66873,11 +66772,14 @@ Application Description: SQLWindows version 5.0 starter application
 				Message Actions
 					On SAM_Create
 						!
-						Set sTabName = 'METKATEF'
-						Set sWhereClauseTbl = 'TMIMACODE = :frmTmima.dfkTmhma and PROGCODE = :sProgramKatefDlg '
-						Set sTabColList = ' TMIMACODE, PROGCODE'
-						Set sTabValList = ':frmTmima.dfkTmhma, :sProgramKatefDlg'
-						Set sWhereTbl = 'TMIMACODE = :frmTmima.dfkTmhma and PROGCODE = :sProgramKatefDlg'
+						Set sTabName = 'METPROGRAM'
+						! Set sWhereClauseTbl = 'TMIMACODE = :frmTmima.dfkTmhma and PROGCODE = :sProgramKatefDlg '
+						Set sWhereClauseTbl = ' progcode is not null order by progcode '
+						! Set sTabColList = ' TMIMACODE, PROGCODE'
+						! Set sTabValList = ':frmTmima.dfkTmhma, :sProgramKatefDlg'
+						! Set sWhereTbl = 'TMIMACODE = :frmTmima.dfkTmhma and PROGCODE = :sProgramKatefDlg'
+					On SAM_CreateComplete
+						Call SalSendMsg( tblProg, PAM_POPULATE,0,0 )
 			Group Box: Κατευθύνσεις
 				Resource Id: 27869
 				Class Child Ref Key: 0
@@ -66927,77 +66829,6 @@ Application Description: SQLWindows version 5.0 starter application
 						Call tblKatef.SaveTbl( )
 						! Call colForeasText.SetSelectionCol(tblXrima,colForeasCode)
 						! Call SalSendMsg( tblPtyxio, PAM_POPULATE,0,0 )
-			Background Text: Πρόγραμμα
-				Resource Id: 44324
-				Class Child Ref Key: 0
-				Class ChildKey: 0
-				Class: CbgText
-				Window Location and Size
-					Left: 0.538"
-					Top: 0.094"
-					Width:  0.75"
-					Width Editable? Class Default
-					Height: Class Default
-					Height Editable? Class Default
-				Visible? Class Default
-				Justify: Class Default
-				Font Name: Calibri Light
-				Font Size: Class Default
-				Font Enhancement: Class Default
-				Text Color: Class Default
-				Background Color: Class Default
-			Combo Box: cmbProgramKatefDipl
-.data INHERITPROPS
-0000: 0100
-.enddata
-.data CLASSPROPSSIZE
-0000: EA00
-.enddata
-.data CLASSPROPS
-0000: 434F44454F4E4C59 0001000000505249 4D41525900010000 00504C5445585432
-0020: 0001000000504C43 4F4C00090050524F 47434F4445000043 4F4C4E414D450009
-0040: 0050524F47434F44 4500005441424E41 4D450009004D4554 4B41544546000052
-0060: 45465441424E414D 45000B004D455450 524F4752414D0000 504C544558540007
-0080: 005449544C4F5300 0057484552450028 0077686572652020 4D455450524F4752
-00A0: 414D2E544D494D41 434F4445203D203A 64666B546D686D61 00004D4553534147
-00C0: 4500010000004449 5354494E43540002 0031000000000000 0000000000000000
-00E0: 0000000000000000 0000
-.enddata
-				Class Child Ref Key: 0
-				Class ChildKey: 0
-				Class: CcmbSqlFieldTab
-				Property Template:
-				Class DLL Name:
-				Window Location and Size
-					Left: 1.338"
-					Top: 0.073"
-					Width:  4.8"
-					Width Editable? Class Default
-					Height: 2.125"
-					Height Editable? Class Default
-				Visible? Class Default
-				Editable? Class Default
-				String Type: Class Default
-				Maximum Data Length: 50
-				Sorted? Class Default
-				Always Show List? Class Default
-				Vertical Scroll? Class Default
-				Font Name: Calibri Light
-				Font Size: Class Default
-				Font Enhancement: Class Default
-				Text Color: Class Default
-				Background Color: Class Default
-				Input Mask: Class Default
-				List Initialization
-				Message Actions
-					! On PAM_INSERT
-						!
-					! On PAM_UPDATE
-						!
-					On SAM_Click
-						!
-						Set sProgramKatefDlg = GetSelection()
-						Call tblKatef.Populate()
 		Functions
 			! Function: ColumnCheck
 				                                                                                                                                                                                                                                Description: Function η οποία ελέγχει αν υπάρχουν στήλες  κλειδιά κενές
@@ -68721,7 +68552,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Top: -0.01"
 				Width:  10.0"
 				Width Editable? Class Default
-				Height: 6.104"
+				Height: 7.063"
 				Height Editable? Class Default
 			Form Size
 				Width:  Class Default
@@ -69293,7 +69124,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Title:
 				Window Location and Size
 					Left: 8.488"
-					Top: 4.906"
+					Top: 5.156"
 					Width:  Class Default
 					Width Editable? Class Default
 					Height: Class Default
@@ -69328,8 +69159,8 @@ Application Description: SQLWindows version 5.0 starter application
 				Class ChildKey: 0
 				Class: CbgText
 				Window Location and Size
-					Left: 0.238"
-					Top: 0.906"
+					Left: 0.338"
+					Top: 1.24"
 					Width:  0.95"
 					Width Editable? Class Default
 					Height: 0.25"
@@ -69364,11 +69195,11 @@ Application Description: SQLWindows version 5.0 starter application
 				Property Template:
 				Class DLL Name:
 				Window Location and Size
-					Left: 1.238"
-					Top: 0.49"
+					Left: 1.338"
+					Top: 0.823"
 					Width:  6.95"
 					Width Editable? Class Default
-					Height: 0.742"
+					Height: 0.646"
 					Height Editable? Class Default
 				Visible? Class Default
 				Editable? Class Default
@@ -69416,10 +69247,10 @@ Application Description: SQLWindows version 5.0 starter application
 				Class: CgbGen
 				Window Location and Size
 					Left: 0.088"
-					Top: 1.49"
+					Top: 1.74"
 					Width:  9.5"
 					Width Editable? Class Default
-					Height: 3.833"
+					Height: 3.917"
 					Height Editable? Class Default
 				Visible? Class Default
 				Font Name: Calibri
@@ -69439,7 +69270,7 @@ Application Description: SQLWindows version 5.0 starter application
 				Display Settings
 					Window Location and Size
 						Left: 0.188"
-						Top: 1.823"
+						Top: 1.99"
 						Width:  9.3"
 						Width Editable? Class Default
 						Height: 3.042"
@@ -70150,11 +69981,11 @@ Application Description: SQLWindows version 5.0 starter application
 				Property Template:
 				Class DLL Name:
 				Window Location and Size
-					Left: 1.238"
-					Top: 0.906"
+					Left: 1.338"
+					Top: 1.24"
 					Width:  6.95"
 					Width Editable? Class Default
-					Height: 0.875"
+					Height: 0.781"
 					Height Editable? Class Default
 				Visible? Class Default
 				Editable? Class Default
@@ -70191,14 +70022,33 @@ Application Description: SQLWindows version 5.0 starter application
 				Class ChildKey: 0
 				Class: CbgText
 				Window Location and Size
-					Left: 0.238"
-					Top: 0.49"
+					Left: 0.338"
+					Top: 0.823"
 					Width:  0.85"
 					Width Editable? Class Default
 					Height: 0.25"
 					Height Editable? Class Default
 				Visible? Class Default
 				Justify: Center
+				Font Name: Calibri
+				Font Size: Class Default
+				Font Enhancement: Bold
+				Text Color: Class Default
+				Background Color: Class Default
+			Background Text: Σχολή
+				Resource Id: 63146
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class: CbgText
+				Window Location and Size
+					Left: 0.488"
+					Top: 0.49"
+					Width:  0.7"
+					Width Editable? Class Default
+					Height: 0.25"
+					Height Editable? Class Default
+				Visible? Class Default
+				Justify: Left
 				Font Name: Calibri
 				Font Size: Class Default
 				Font Enhancement: Bold
@@ -70214,7 +70064,7 @@ Application Description: SQLWindows version 5.0 starter application
 					Top: 0.156"
 					Width:  8.3"
 					Width Editable? Class Default
-					Height: 1.25"
+					Height: 1.5"
 					Height Editable? Class Default
 				Visible? Class Default
 				Font Name: Calibri Light
@@ -70240,6 +70090,54 @@ Application Description: SQLWindows version 5.0 starter application
 				Font Enhancement: Class Default
 				Text Color: Dark Red
 				Background Color: Class Default
+			Combo Box: cmbTmima
+.data CLASSPROPSSIZE
+0000: DD00
+.enddata
+.data CLASSPROPS
+0000: 44495354494E4354 0002003000004D45 5353414745000100 0000574845524500
+0020: 1A00574845524520 4D4554544D494D41 2E554E4956434F44 453D310000504C54
+0040: 4558540007005449 544C4F5300005245 465441424E414D45 0009004D4554544D
+0060: 494D410000544142 4E414D45000A004D 455450524F535055 0000434F4C4E414D
+0080: 45000A00544D494D 41434F4445000050 4C434F4C000A0054 4D494D41434F4445
+00A0: 0000504C54455854 3200010000005052 494D415259000100 0000434F44454F4E
+00C0: 4C59000100000000 0000000000000000 0000000000000000 0000000000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class: CcmbSqlFieldTab
+				Property Template:
+				Class DLL Name:
+				Window Location and Size
+					Left: 1.35"
+					Top: 0.417"
+					Width:  6.95"
+					Width Editable? Class Default
+					Height: 1.188"
+					Height Editable? Class Default
+				Visible? Class Default
+				Editable? Class Default
+				String Type: Class Default
+				Maximum Data Length: Class Default
+				Sorted? Class Default
+				Always Show List? Class Default
+				Vertical Scroll? Class Default
+				Font Name: Class Default
+				Font Size: Class Default
+				Font Enhancement: Class Default
+				Text Color: Class Default
+				Background Color: Class Default
+				Input Mask: Class Default
+				List Initialization
+				Message Actions
+					On SAM_Click
+						Set sTmima = saValues[ SalListQuerySelection( cmbTmima ) ]
+						Set cmbProg.sWhere = ' where metprogram.tmimacode = :sTmima'
+						Call SalListClear( cmbProg )
+						Call cmbProg.PopulateCB()
 		Functions
 			! Function: GetNamedMenu
 				                                                                                                                                                                                                                                Description: 
@@ -70448,6 +70346,7 @@ Application Description: SQLWindows version 5.0 starter application
 			String: sProgCod
 			String: sLecPer
 			String: sTmimaUniv
+			String: sTmima
 			String: sProgramSpou
 			Number: nTmimaUniv
 			Number: nCode
@@ -96614,3 +96513,543 @@ Application Description: SQLWindows version 5.0 starter application
 					Call SqlDisconnect(hMSSQLServer)
 				! If hSQLBase
 					Call SqlDisconnect(hSQLBase)
+	Dialog Box: dlgKatef
+.data INHERITPROPS
+0000: 0100
+.enddata
+		Class: clsDialog
+		Property Template:
+		Class DLL Name:
+		Title: Στοιχεία Κατεύθυνσης
+		Accessories Enabled? Yes
+		Visible? Class Default
+		Display Settings
+			Display Style? Class Default
+			Visible at Design time? No
+			Type of Dialog: Modal
+			Allow Dock to Parent? No
+			Docking Orientation: All
+			Window Location and Size
+				Left: 0.925"
+				Top: 1.563"
+				Width:  6.963"
+				Width Editable? Class Default
+				Height: 3.656"
+				Height Editable? Class Default
+			Absolute Screen Location? Class Default
+			Font Name: Class Default
+			Font Size: Class Default
+			Font Enhancement: Class Default
+			Text Color: Class Default
+			Background Color: Default
+			Resizable? No
+			Vertical Scroll? Yes
+			Horizontal Scroll? Yes
+		Description:
+		Tool Bar
+			Display Settings
+				Display Style? Class Default
+				Location? Class Default
+				Visible? Class Default
+				Size: 0.552"
+				Size Editable? Class Default
+				Docking Toolbar? Class Default
+				Toolbar Docking Orientation: Class Default
+				Font Name: Class Default
+				Font Size: Class Default
+				Font Enhancement: Class Default
+				Text Color: Class Default
+				Background Color: Default
+				Resizable? Class Default
+			Contents
+				Pushbutton: pbExit
+.data CLASSPROPSSIZE
+0000: 4800
+.enddata
+.data CLASSPROPS
+0000: 544950000A00C5F0 E9F3F4F1EFF6DE00 004954454D000100 0000534F55524345
+0020: 000700284E6F6E65 2900004D45535341 4745000A00C5F0E9 F3F4F1EFF6DE0000
+0040: 0000000000000000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Class Child Ref Key: 0
+					Class ChildKey: 0
+					Class: CpbExit
+					Property Template:
+					Class DLL Name:
+					Title:
+					Window Location and Size
+						Left: 6.088"
+						Top: 0.115"
+						Width:  Class Default
+						Width Editable? Class Default
+						Height: Class Default
+						Height Editable? Class Default
+					Visible? Class Default
+					Keyboard Accelerator: Class Default
+					Font Name: Class Default
+					Font Size: Class Default
+					Font Enhancement: Class Default
+					Picture File Name:
+					Picture Transparent Color: Class Default
+					Image Style: Class Default
+					Text Color: Class Default
+					Background Color: Class Default
+					Button Appearance: Standard
+					Message Actions
+						On SAM_Click
+							!
+							Call SalSendMsg( hWndForm, SAM_Close, 0, 0 )
+		Contents
+			Child Table: tblKatef
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class: CtblSql
+				Property Template:
+				Class DLL Name:
+				Display Settings
+					Window Location and Size
+						Left: 0.488"
+						Top: 0.531"
+						Width:  5.7"
+						Width Editable? Class Default
+						Height: 1.833"
+						Height Editable? Class Default
+					Visible? Class Default
+					Font Name: Calibri Light
+					Font Size: 8
+					Font Enhancement: Class Default
+					Text Color: Class Default
+					Background Color: Class Default
+					View: Class Default
+					Allow Row Sizing? Class Default
+					Lines Per Row: Class Default
+				Memory Settings
+					Maximum Rows in Memory: Class Default
+					Discardable? Class Default
+				Contents
+					Column: colKat
+.data INHERITPROPS
+0000: 0100
+.enddata
+.data CLASSPROPSSIZE
+0000: A200
+.enddata
+.data CLASSPROPS
+0000: 4F52444552425900 0200300000494E53 454C454354000200 3000005748455245
+0020: 4954454D00010000 004D455353414745 001400CAF9E4E9EA FCF220CAE1F4E5FD
+0040: E8F5EDF3E7F20000 434F4C4E414D4500 04004B4154000054 41424E414D450009
+0060: 004D45544B415445 4600005052494D41 5259000200310000 52454C4F50000100
+0080: 0000524551554952 4544000200300000 0000000000000000 0000000000000000
+00A0: 0000
+.enddata
+						Class Child Ref Key: 0
+						Class ChildKey: 0
+						Class: CcolSql
+						Property Template:
+						Class DLL Name:
+						Title: Κωδικός
+						Visible? Class Default
+						Editable? Class Default
+						Maximum Data Length: Class Default
+						Data Type: Class Default
+						Justify: Class Default
+						Width:  0.8"
+						Width Editable? Class Default
+						Format: Class Default
+						Country: Class Default
+						Input Mask: Class Default
+						Cell Options
+							Cell Type? Class Default
+							Multiline Cell? Class Default
+							Cell DropDownList
+								Sorted? Class Default
+								Vertical Scroll? Class Default
+								Auto Drop Down? Class Default
+								Allow Text Editing? Class Default
+							Cell CheckBox
+								Check Value:
+								Uncheck Value:
+								Ignore Case? Class Default
+						List Values
+						Message Actions
+					Column: colTitlosKat
+.data INHERITPROPS
+0000: 0100
+.enddata
+.data CLASSPROPSSIZE
+0000: A400
+.enddata
+.data CLASSPROPS
+0000: 4F52444552425900 0200300000494E53 454C454354000200 3000005748455245
+0020: 4954454D00010000 004D455353414745 001300D4DFF4EBEF F220CAE1F4E5FDE8
+0040: F5EDF3E7F2000043 4F4C4E414D450007 005449544C4F5300 005441424E414D45
+0060: 0009004D45544B41 5445460000505249 4D41525900020030 000052454C4F5000
+0080: 0100000052455155 4952454400020030 0000000000000000 0000000000000000
+00A0: 00000000
+.enddata
+						Class Child Ref Key: 0
+						Class ChildKey: 0
+						Class: CcolSql
+						Property Template:
+						Class DLL Name:
+						Title: Τίτλος
+						Visible? Class Default
+						Editable? Class Default
+						Maximum Data Length: 150
+						Data Type: String
+						Justify: Class Default
+						Width:  3.988"
+						Width Editable? Class Default
+						Format: Class Default
+						Country: Class Default
+						Input Mask: Class Default
+						Cell Options
+							Cell Type? Class Default
+							Multiline Cell? Class Default
+							Cell DropDownList
+								Sorted? Class Default
+								Vertical Scroll? Class Default
+								Auto Drop Down? Class Default
+								Allow Text Editing? Class Default
+							Cell CheckBox
+								Check Value:
+								Uncheck Value:
+								Ignore Case? Class Default
+						List Values
+						Message Actions
+					Column: colMinObli
+.data CLASSPROPSSIZE
+0000: C100
+.enddata
+.data CLASSPROPS
+0000: 504F50554C415445 0002003000005245 5155495245440002 003000005052494D
+0020: 4152590002003000 00544950001500C1 D1C9C8CCCFD320D5 D0CFD7D1C5D9D4C9
+0040: CAD9CD0000574845 52454954454D0001 0000005441424E41 4D450009004D4554
+0060: 4B41544546000043 4F4C4E414D450008 004D494E4F424C49 00004D4553534147
+0080: 4500010000005245 4C4F500001000000 494E53454C454354 0002003000004F52
+00A0: 4445524259000200 3000000000000000 0000000000000000 0000000000000000
+00C0: 00
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+						Class Child Ref Key: 0
+						Class ChildKey: 0
+						Class: CcolSqln
+						Property Template:
+						Class DLL Name:
+						Title: ΑΡ. ΥΠΟΧΡ.
+						Visible? Class Default
+						Editable? Class Default
+						Maximum Data Length: Class Default
+						Data Type: Class Default
+						Justify: Class Default
+						Width:  Class Default
+						Width Editable? Class Default
+						Format: Class Default
+						Country: Class Default
+						Input Mask: Class Default
+						Cell Options
+							Cell Type? Class Default
+							Multiline Cell? Class Default
+							Cell DropDownList
+								Sorted? Class Default
+								Vertical Scroll? Class Default
+								Auto Drop Down? Class Default
+								Allow Text Editing? Class Default
+							Cell CheckBox
+								Check Value:
+								Uncheck Value:
+								Ignore Case? Class Default
+						List Values
+						Message Actions
+					Column: colMinChoi
+.data CLASSPROPSSIZE
+0000: BC00
+.enddata
+.data CLASSPROPS
+0000: 4F52444552425900 0200300000494E53 454C454354000200 30000052454C4F50
+0020: 00010000004D4553 5341474500010000 00434F4C4E414D45 0007004D494E4348
+0040: 4F00005441424E41 4D450009004D4554 4B41544546000057 484552454954454D
+0060: 0001000000544950 001100C1D1C9C8CC CFD320C5D0C9CBCF C3D9CD0000505249
+0080: 4D41525900020030 0000524551554952 4544000200300000 504F50554C415445
+00A0: 0002003000000000 0000000000000000 0000000000000000 00000000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+						Class Child Ref Key: 0
+						Class ChildKey: 0
+						Class: CcolSqln
+						Property Template:
+						Class DLL Name:
+						Title: ΑΡ. ΕΠΙΛΟΓΩΝ
+						Visible? Class Default
+						Editable? Class Default
+						Maximum Data Length: Class Default
+						Data Type: Class Default
+						Justify: Class Default
+						Width:  Class Default
+						Width Editable? Class Default
+						Format: Class Default
+						Country: Class Default
+						Input Mask: Class Default
+						Cell Options
+							Cell Type? Class Default
+							Multiline Cell? Class Default
+							Cell DropDownList
+								Sorted? Class Default
+								Vertical Scroll? Class Default
+								Auto Drop Down? Class Default
+								Allow Text Editing? Class Default
+							Cell CheckBox
+								Check Value:
+								Uncheck Value:
+								Ignore Case? Class Default
+						List Values
+						Message Actions
+					Column: colIdrDate
+.data CLASSPROPSSIZE
+0000: 1501
+.enddata
+.data CLASSPROPS
+0000: 4F52444552425900 0200300000494E53 454C454354000200 3000005748455245
+0020: 4954454D00010000 00494E53494E5748 4552450001000000 44454656414C5545
+0040: 000100000052454C 434F44454E414D45 00010000004D4553 53414745001F00C7
+0060: ECE5F1EFECE7EDDF E120BAE4F1F5F3E7 F220CAE1F4E5FDE8 F5EDF3E7F2000043
+0080: 4F4C4E414D450008 0049445244415445 00005441424E414D 450009004D45544B
+00A0: 4154454600005052 494D415259000200 30000052454C5441 424E414D45000100
+00C0: 000052454C544558 544E414D45000100 0000444C47544954 4C45000100000052
+00E0: 454C4F5000010000 0052455155495245 4400020030000000 0000000000000000
+0100: 0000000000000000 0000000000000000 0000000000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+						Class Child Ref Key: 0
+						Class ChildKey: 0
+						Class: CcolSql
+						Property Template:
+						Class DLL Name:
+						Title: Ημ.'Ιδρυσης
+						Visible? Yes
+						Editable? Class Default
+						Maximum Data Length: Class Default
+						Data Type: Date/Time
+						Justify: Class Default
+						Width:  1.0"
+						Width Editable? Class Default
+						Format: Date
+						Country: Class Default
+						Input Mask: Class Default
+						Cell Options
+							Cell Type? Class Default
+							Multiline Cell? Class Default
+							Cell DropDownList
+								Sorted? Class Default
+								Vertical Scroll? Class Default
+								Auto Drop Down? Class Default
+								Allow Text Editing? Class Default
+							Cell CheckBox
+								Check Value:
+								Uncheck Value:
+								Ignore Case? Class Default
+						List Values
+						Message Actions
+					Column: colKrgDate
+.data INHERITPROPS
+0000: 0100
+.enddata
+.data CLASSPROPSSIZE
+0000: B400
+.enddata
+.data CLASSPROPS
+0000: 4F52444552425900 0200300000494E53 454C454354000200 3000005748455245
+0020: 4954454D00010000 004D455353414745 002200C7ECE5F1EF ECE7EDDFE120CAE1
+0040: F4DCF1E3E7F3E7F2 20CAE1F4E5FDE8F5 EDF3E7F20000434F 4C4E414D45000800
+0060: 4B52474441544500 005441424E414D45 0009004D45544B41 5445460000505249
+0080: 4D41525900020030 000052454C4F5000 0100000052455155 4952454400020030
+00A0: 0000000000000000 0000000000000000 00000000
+.enddata
+						Class Child Ref Key: 0
+						Class ChildKey: 0
+						Class: CcolSqln
+						Property Template:
+						Class DLL Name:
+						Title: Ημ.Κατάργ.
+						Visible? Class Default
+						Editable? Class Default
+						Maximum Data Length: Class Default
+						Data Type: Date/Time
+						Justify: Right
+						Width:  1.013"
+						Width Editable? Class Default
+						Format: Date
+						Country: Class Default
+						Input Mask: Class Default
+						Cell Options
+							Cell Type? Class Default
+							Multiline Cell? Class Default
+							Cell DropDownList
+								Sorted? Class Default
+								Vertical Scroll? Class Default
+								Auto Drop Down? Class Default
+								Allow Text Editing? Class Default
+							Cell CheckBox
+								Check Value:
+								Uncheck Value:
+								Ignore Case? Class Default
+						List Values
+						Message Actions
+					Column: colTitlosKatEng
+.data CLASSPROPSSIZE
+0000: 5700
+.enddata
+.data CLASSPROPS
+0000: 52454C4F50000100 00005052494D4152 590003004E4F0000 5441424E414D4500
+0020: 09004D45544B4154 45460000434F4C4E 414D45000A005449 544C4F53454E4700
+0040: 004D455353414745 0001000000000000 00000000000000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+						Class Child Ref Key: 0
+						Class ChildKey: 0
+						Class: CcolSql
+						Property Template:
+						Class DLL Name:
+						Title: Τίτλος στα Αγγλικά
+						Visible? Class Default
+						Editable? Class Default
+						Maximum Data Length: 150
+						Data Type: Class Default
+						Justify: Class Default
+						Width:  4.683"
+						Width Editable? Class Default
+						Format: Class Default
+						Country: Class Default
+						Input Mask: Class Default
+						Cell Options
+							Cell Type? Class Default
+							Multiline Cell? Class Default
+							Cell DropDownList
+								Sorted? Class Default
+								Vertical Scroll? Class Default
+								Auto Drop Down? Class Default
+								Allow Text Editing? Class Default
+							Cell CheckBox
+								Check Value:
+								Uncheck Value:
+								Ignore Case? Class Default
+						List Values
+						Message Actions
+				Functions
+				Window Variables
+				Message Actions
+					On SAM_Create
+						!
+						Set sTabName = 'METKATEF'
+						! Set sWhereClauseTbl = 'TMIMACODE = :frmTmima.dfkTmhma and PROGCODE = :sProgramKatefDlg '
+						Set sWhereClauseTbl = ' kat is not null order by kat '
+						! Set sTabColList = ' TMIMACODE, PROGCODE'
+						! Set sTabValList = ':frmTmima.dfkTmhma, :sProgramKatefDlg'
+						! Set sWhereTbl = 'TMIMACODE = :frmTmima.dfkTmhma and PROGCODE = :sProgramKatefDlg'
+					On SAM_CreateComplete
+						Call SalSendMsg( tblKatef, PAM_POPULATE,0,0 )
+			Group Box: Κατευθύνσεις
+				Resource Id: 19241
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Window Location and Size
+					Left: 0.288"
+					Top: 0.323"
+					Width:  6.1"
+					Width Editable? Yes
+					Height: 2.417"
+					Height Editable? Yes
+				Visible? Yes
+				Font Name: Calibri
+				Font Size: 10
+				Font Enhancement: Bold
+				Text Color: Dark Blue
+				Background Color: Default
+			Pushbutton: pbSaveKatef
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class: CpbSaveTbl
+				Property Template:
+				Class DLL Name:
+				Title:
+				Window Location and Size
+					Left: 5.288"
+					Top: 2.406"
+					Width:  Class Default
+					Width Editable? Class Default
+					Height: Class Default
+					Height Editable? Class Default
+				Visible? Class Default
+				Keyboard Accelerator: Class Default
+				Font Name: Class Default
+				Font Size: Class Default
+				Font Enhancement: Class Default
+				Picture File Name:
+				Picture Transparent Color: Class Default
+				Image Style: Class Default
+				Text Color: Class Default
+				Background Color: Class Default
+				Button Appearance: Standard
+				Message Actions
+					On SAM_Click
+						!
+						Call tblKatef.SaveTbl( )
+						! Call colForeasText.SetSelectionCol(tblXrima,colForeasCode)
+						! Call SalSendMsg( tblPtyxio, PAM_POPULATE,0,0 )
+		Functions
+			! Function: ColumnCheck
+				                                                                                                                                                                                                                                Description: Function η οποία ελέγχει αν υπάρχουν στήλες  κλειδιά κενές
+				                                                                                                                                                                                                                                Returns 
+				                                                                                                                                                                                                                                Parameters 
+					                                                                                                                                                                                                                                Window Handle: tblChecked
+					                                                                                                                                                                                                                                Number: colChecked
+					                                                                                                                                                                                                                                Window Handle: colUpdated
+				                                                                                                                                                                                                                                Static Variables 
+				                                                                                                                                                                                                                                Local variables 
+					                                                                                                                                                                                                                                Number: nRow
+					                                                                                                                                                                                                                                Number: nMinRow
+					                                                                                                                                                                                                                                Number: nMaxRow
+					                                                                                                                                                                                                                                Number: nCurrentRow
+					                                                                                                                                                                                                                                String: sColText
+				                                                                                                                                                                                                                                Actions 
+					!
+					                                                                                                                                                                                                                                Call SalTblQueryScroll( tblChecked, nRow, nMinRow, nMaxRow )
+					                                                                                                                                                                                                                                Set nCurrentRow = 0
+					                                                                                                                                                                                                                                Call SalTblSetRow( tblChecked, TBL_SetFirstRow )
+					!
+					                                                                                                                                                                                                                                Loop 
+						                                                                                                                                                                                                                                If nCurrentRow  <=  nMaxRow
+							                                                                                                                                                                                                                                Call SalTblGetColumnText(tblChecked, colChecked, sColText )
+							                                                                                                                                                                                                                                If sColText = ''
+								                                                                                                                                                                                                                                Call SalMessageBox( 'Παρακαλώ, συμπληρώστε τα απαραίτητα πεδία !','Προσοχή' ,MB_IconAsterisk | MB_Ok )
+								                                                                                                                                                                                                                                Call SalTblSetFocusCell( tblChecked , nCurrentRow , colUpdated , 0 , 0 )
+								                                                                                                                                                                                                                                Return FALSE
+								                                                                                                                                                                                                                                Break 
+							                                                                                                                                                                                                                                Set nCurrentRow = nCurrentRow + 1
+							                                                                                                                                                                                                                                Call SalTblSetRow( tblChecked, TBL_SetNextRow )
+						                                                                                                                                                                                                                                Else 
+							                                                                                                                                                                                                                                Return TRUE
+							                                                                                                                                                                                                                                Break 
+		Window Parameters
+			String: sTitlePar
+		Window Variables
+			Number: nCode
+			String: sProgramKatefDlg
+		Message Actions
+			On SAM_CreateComplete
+				!
+			On SAM_Close
+				!
+				Call SalEndDialog( hWndForm, 1 )
